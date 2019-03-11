@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './home/Home.jsx';
+import About from './about/About.jsx';
 
-class App extends Component {
-    state = {
-        hi: 'Hello, World!',
-    }
+const AppRouter = () => (
+    <Router>
+        <div>
+            <Route path="/" exact component={ Home } />
+            <Route path="/about/" component={ About } />
+        </div>
+    </Router>
+);
 
-    render() {
-        const { hi } = this.state;
-        return (
-            <div className="App">
-                <h1>{hi}</h1>
-            </div>
-        );
-    }
-}
-
-export default App;
+export default AppRouter;
