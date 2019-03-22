@@ -12,6 +12,8 @@ class Home extends Component {
             <div className="App">
                 <Navbar />
                 <h1>{name}</h1>
+                <h1>Hello</h1>
+
             </div>
         );
     }
