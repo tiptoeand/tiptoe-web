@@ -1,0 +1,289 @@
+/* font-face {
+  font-family: 'FuturaBT';
+  src: url("font/FuturaBT.ttf");
+} */
+
+.nav {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.navButton {
+
+}
+
+.navAbout {
+    width: 93px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navProjects {
+    width: 129px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navShop {
+    width: 74px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.navKor {
+    width: 60px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.imageText {
+    margin-bottom: 5%;
+}
+
+.mainImage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.mainImageText1 {
+    width: 400px;
+    height: 210px;
+    font-family: Times;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    right: 5%;
+    bottom: -60px;
+}
+
+.mainImageText2 {
+    width: 400px;
+    height: 210px;
+    font-family: Times;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: right;
+    color: #dd8a8a;
+    position: absolute;
+    right: 5.4%;
+    bottom: -62px;
+}
+
+.tiptoeName {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.nameLogo {
+    width: 15%;
+    margin-left: 35%;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    width: 15%;
+    border: 0;
+    border-top: 2px solid #000000;
+    padding: 0;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: -1%;
+}
+
+.p3launch {
+    height: 50px;
+    font-family: FuturaBT;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #838383;
+    margin-left: 7%;
+    margin-bottom: 0.1%;
+}
+
+.timelineImg {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.image3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.stepsImg {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.join {
+    background-color: #dd8a8a;
+    height: 230px;
+}
+
+.joinEmail {
+    padding-top: 2.5%;
+    display: block;
+    margin: auto;
+}
+
+.joinEmailText {
+    font-family: FuturaBT;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 22%;
+}
+
+.emailRect {
+    border: solid 2px #ffffff;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 39%;
+}
+
+.joinButton {
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 0 #858585;
+    font-family: FuturaBT;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #dd8a8a;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 65%;
+}
+
+.joinEmailText2 {
+    font-family: FuturaBT;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.joinEmailText3 {
+    font-family: FuturaBT;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.footer {
+    height: 200px;
+}
+
+.tiptoe {
+    font-family: FuturaBT;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #858585;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
