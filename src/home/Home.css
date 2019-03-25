@@ -85,10 +85,13 @@
 }
 
 .mainlogo {
-  margin-left: 150px;
   margin-bottom: 80px;
-  width: 300px;
-  height: 75.4px;
+  width: 20%;
+  display: block;
+  margin-left: 42%;
+  margin-right: 42%;
+
+
 }
 
 .imageText {
@@ -97,10 +100,8 @@
 
 .mainImage {
     width: 100%;
-    height: 737px;
     position: relative;
     text-align: center;
-    margin-top: 0;
 }
 
 .mainImageText1 {
@@ -277,6 +278,7 @@
     color: #ffffff;
     margin: auto;
     text-align: center;
+    margin-top: 1%;
 }
 
 .footer {

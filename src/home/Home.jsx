@@ -18,7 +18,6 @@ class Home extends Component {
         const { name } = this.state;
         return (
             <div className="App">
-              <Navbar/>
                 <div class = "nav">
                     <div class = "navButton">
                         <a href = "About.jsx" class = "navAbout">ABOUT</a>
