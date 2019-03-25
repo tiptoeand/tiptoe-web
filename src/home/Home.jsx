@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/Navbar.jsx';
+import tiptoe from './image/tiptoe.png';
+import MainImage from './image/MainImage.jpeg';
+import Timeline from './image/Timeline.png';
+import threeimages from './image/threeimages.png';
+import threesteps from './image/threesteps.png';
 
 import './Home.css';
 
@@ -16,30 +21,30 @@ class Home extends Component {
               <Navbar/>
                 <div class = "nav">
                     <div class = "navButton">
-                        <a href = "" class = "navAbout">ABOUT</a>
+                        <a href = "About.jsx" class = "navAbout">ABOUT</a>
                         <a href = "" class = "navProjects">PROJECTS</a>
                         <a href = "" class = "navKor">한국어</a>
                         <a href = "" class = "navShop">SHOP</a>
-                        <img src={"./image/tiptoe&.png"}/>
+                        <img src = {tiptoe} class ="mainlogo" alt = "logo"/>
                     </div>
                 </div>
 
                 <div class = "imageText">
-                    <img src = "image/MainImage.jpeg" class = "mainImage"/>
+                    <img src = {MainImage} class = "mainImage" alt = ""/>
                     <h1 class = "mainImageText2">spring ‘19 new release</h1>
                     <h1 class = "mainImageText1">spring ‘19 new release</h1>
                 </div>
 
                 <div class = "tiptoeName">
-                    <img src="./image/tiptoe&.png" class = "nameLogo" />
+                    <img src= {tiptoe} class = "nameLogo" alt = "" />
                     <hr class = "line"></hr>
                 </div>
 
                 <p class = "p3launch">P_3 LAUNCH</p>
 
-                <img src = "image/Timeline.png" class = "timelineImg" alt="Timeline Image"/>
-                <img src = "image/3image.png" class = "image3"/>
-                <img src = "image/3steps.png" class = "stepsImg"/>
+                <img src = {Timeline} class = "timelineImg" alt=""/>
+                <img src = {threeimages} class = "image3" alt= ""/>
+                <img src = {threesteps} class = "stepsImg" alt = ""/>
 
                 <div class = "join">
                     <div class = "joinEmail">
