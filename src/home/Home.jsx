@@ -7,6 +7,9 @@ import threeimages from './image/threeimages.png';
 import threesteps from './image/threesteps.png';
 import gray from './image/gray.png';
 
+import Typing from 'react-typing-animation';
+
+
 import './Home.css';
 
 
@@ -95,6 +98,11 @@ class Home extends Component {
 
                 <div class = "tiptoeName">
                     <img src= {tiptoe} class = "nameLogo" alt = "" />
+                    <Typing loop = {true} speed = {110}>
+                        <span class = "yourName">your name</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={20} />
+                    </Typing>
                     <hr class = "line"></hr>
                 </div>
 
