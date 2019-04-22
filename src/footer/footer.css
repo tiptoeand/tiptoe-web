@@ -1,0 +1,40 @@
+.Rectangle {
+  width: 1822px;
+  height: 142px;
+  background-color: #ffffff;
+}
+.TIPTOE-2019 {
+  width: 156px;
+  height: 28px;
+  font-family: FuturaBT;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #858585;
+}
+.TIPTOE-2019 .text-style-1 {
+  font-family: PingFangSC;
+  font-weight: 300;
+}
+.footer {
+  height: 142px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 100vw;
+  color: #858585;
+  letter-spacing: 0.1px;
+  font-style: normal;
+  font-size: 20px;
+  font-family: PingFangSC;
+  font-weight: normal;
+  line-height: normal;
+
+}
+
+.footer img {
+  padding-right: 10px;
+}

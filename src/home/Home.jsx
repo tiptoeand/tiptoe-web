@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/Navbar.jsx';
+import Footer from '../footer/footer.jsx';
 
 class Home extends Component {
     state = {
@@ -12,6 +13,7 @@ class Home extends Component {
             <div className="App">
                 <Navbar />
                 <h1>{name}</h1>
+                <Footer />
             </div>
         );
     }
