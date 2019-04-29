@@ -4,6 +4,7 @@ import Home from './home/Home.jsx';
 import About from './about/About.jsx';
 import Ourstory from './ourstory/ourstory.jsx';
 import Contact from './contact/Contact.jsx';
+import Press from './press/Press.jsx';
 
 const AppRouter = () => (
     <Router>
@@ -12,6 +13,7 @@ const AppRouter = () => (
             <Route path="/about/" component={About} />
             <Route path="/ourstory/" component={Ourstory} />
             <Route path="/contact/" component={Contact} />
+            <Route path="/press/" component={Press} />
         </div>
     </Router>
 );
