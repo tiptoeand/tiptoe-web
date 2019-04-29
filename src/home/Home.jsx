@@ -8,6 +8,10 @@ import threesteps from './image/threesteps.png';
 import gray from './image/gray.png';
 
 import Typing from 'react-typing-animation';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
 
 
 import './Home.css';
@@ -76,6 +80,20 @@ class Home extends Component {
                             <button class = "button"> PARTNERS/PRESS </button>
                             <button class = "button"> JOIN US </button>
                           </div>
+                          <Carousel class = "carousel">
+                            <div>
+                                <img src={MainImage} />
+                                <p className="legend">Legend 1</p>
+                            </div>
+                            <div>
+                            <img src={MainImage} />
+                                <p className="legend">Legend 2</p>
+                            </div>
+                            <div>
+                            <img src={MainImage} />
+                                <p className="legend">Legend 3</p>
+                            </div>
+                        </Carousel>
                           <div class = "imagebox1">
                             <img src = {gray} class = "navbarimage1"/>
                             <div class = "imageboxtext">OUR STORY</div>
