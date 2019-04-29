@@ -6,12 +6,26 @@ import Timeline from './image/Timeline.png';
 import threeimages from './image/threeimages.png';
 import threesteps from './image/threesteps.png';
 import gray from './image/gray.png';
-
 import Typing from 'react-typing-animation';
+import { Slide } from 'react-slideshow-image';
+import Slider from './slideshow/parentslider.jsx'
 
 
 import './Home.css';
 
+const slideImages = [
+  './image/slideshow1.jpg',
+  './image/slideshow2.jpg',
+  './image/slideshow3.jpeg'
+];
+
+const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true
+}
 
 class Home extends Component {
   constructor() {
@@ -47,6 +61,7 @@ class Home extends Component {
 
     render() {
         const { name } = this.state;
+
         return (
             <div className="App">
               <div class ="dropdown">
@@ -90,23 +105,37 @@ class Home extends Component {
                     : ( null )
                   }
 
-              <div class = "imageText">
-                    <img src = {MainImage} class = "mainImage" alt = ""/>
-                    <h1 class = "mainImageText2">spring ‘19 new release</h1>
-                    <h1 class = "mainImageText1">spring ‘19 new release</h1>
-                </div>
+            <Slide {...properties}>
+                    <div className="each-slide">
+                      <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                      </div>
+                    </div>
+                    <div className="each-slide">
+                      <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                      </div>
+                    </div>
+                    <div className="each-slide">
+                      <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+                      </div>
+                    </div>
+              </Slide>
 
-                <div class = "tiptoeName">
-                    <img src= {tiptoe} class = "nameLogo" alt = "" />
-                    <Typing loop = {true} speed = {110}>
-                        <span class = "yourName">your name</span>
-                        <Typing.Delay ms={1000} />
-                        <Typing.Backspace count={20} />
-                    </Typing>
-                    <hr class = "line"></hr>
-                </div>
 
-                <p class = "p3launch">P_3 LAUNCH</p>
+
+
+              <div class = "tiptoeName">
+                      <img src= {tiptoe} class = "nameLogo" alt = "" />
+                      <Typing loop = {true} speed = {110}>
+                          <span class = "yourName">your name</span>
+                          <Typing.Delay ms={1000} />
+                          <Typing.Backspace count={20} />
+                      </Typing>
+                      <hr class = "line"></hr>
+              </div>
+
+              <div class = "p3launch">
+                <h1 class = "p3launchtext">P_3 LAUNCH</h1>
+              </div>
 
                 <img src = {Timeline} class = "timelineImg" alt=""/>
                 <img src = {threeimages} class = "image3" alt= ""/>
