@@ -7,18 +7,22 @@ import threeimages from './image/threeimages.png';
 import threesteps from './image/threesteps.png';
 import gray from './image/gray.png';
 import Typing from 'react-typing-animation';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import { Slide } from 'react-slideshow-image';
+import Slider from './slideshow/parentslider.jsx';
+import slideshow1 from './image/slideshow1.jpg'
+import slideshow2 from './image/slideshow2.jpg'
+import slideshow3 from './image/slideshow3.jpeg'
 
+//import ReactDOM from 'react-dom';
+//import { Carousel } from 'react-responsive-carousel';
 
 
 import './Home.css';
 
 const slideImages = [
-  './image/slideshow1.jpg',
-  './image/slideshow2.jpg',
-  './image/slideshow3.jpeg'
+  'image/slideshow1.jpg',
+  'image/slideshow2.jpg',
+  'image/slideshow3.jpeg'
 ];
 
 const properties = {
@@ -70,14 +74,14 @@ class Home extends Component {
                 <button class = "dropdown_b" onClick={this.showAbout}>ABOUT</button>
             </div>
 
-              <div class = "nav">
-                  <div class = "navbutton">
+            <div class = "nav">
+                <div class = "navbutton">
                       <a href = "" class = "navProjects">PROJECTS</a>
                       <a href = "" class = "navKor">한국어</a>
                       <a href = "" class = "navShop">SHOP</a>
                       <img src = {tiptoe} class ="mainlogo" alt = "logo"/>
-                  </div>
                 </div>
+              </div>
 
                 {
                   this.state.showAbout
@@ -107,31 +111,29 @@ class Home extends Component {
                     : ( null )
                   }
 
-                <Carousel class = "carousel">
-                    <div>
-                        <img src={MainImage} />
-                        <p className="legend">Legend 1</p>
-                    </div>
-                    <div>
-                    <img src={MainImage} />
-                        <p className="legend">Legend 2</p>
-                    </div>
-                    <div>
-                    <img src={MainImage} />
-                        <p className="legend">Legend 3</p>
-                    </div>
-              </Carousel>
+                <div class ="slideshow">
+                    <Slide {...properties}>
+                      <div className="each-slide">
+                        <img src = {slideshow1}/>
+                      </div>
+                      <div className="each-slide">
+                        <img src = {slideshow2}/>
+                      </div>
+                      <div className="each-slide">
+                        <img src = {slideshow3}/>
+                      </div>
+                    </Slide>
+                </div>
 
-
-              <div class = "tiptoeName">
+                <div class = "tiptoeName">
                       <img src= {tiptoe} class = "nameLogo" alt = "" />
                       <Typing loop = {true} speed = {110}>
-                          <span class = "yourName">your name</span>
+                          <span class = "yourName">your name.</span>
                           <Typing.Delay ms={1000} />
                           <Typing.Backspace count={20} />
                       </Typing>
                       <hr class = "line"></hr>
-              </div>
+                </div>
 
               <div class = "p3launch">
                 <h1 class = "p3launchtext">P_3 LAUNCH</h1>

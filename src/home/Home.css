@@ -188,24 +188,18 @@
 }
 
 .slideshow {
-  display: flex;
   width: 100%;
-  position:relative;
+  position: relative;
+  z-index: -1;
 }
 
-.each-slide > div {
+.each-slide {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 300px;
-}
-
-.each-slide span {
-  padding: 20px;
-  font-size: 20px;
-  background: #efefef;
-  text-align: center;
+  position: relative;
+  height: 600px;
 }
 
 .imageText {
@@ -254,7 +248,7 @@
 }
 
 .tiptoeName {
-    margin-top: -3%;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 7%;
     float: left;
@@ -270,8 +264,8 @@
 
 .yourName {
     display: block;
+    font-family: FuturaBT;
     letter-spacing: 0.1px;
-    font-family: CourierNewPSMT;
     padding-left: 50%;
     font-size: 40px;
     color: #838383;
@@ -290,8 +284,13 @@
     margin-left: 42%;
 }
 
+.p3launch {
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
 .p3launchtext {
-    height: 45px;
+    height: 48px;
     font-family: FuturaBT;
     font-size: 35px;
     font-weight: normal;
@@ -300,7 +299,6 @@
     line-height: normal;
     letter-spacing: 0.2px;
     color: #838383;
-    margin-left: 10%;
     margin-bottom: 0.1%;
 }
 
@@ -309,7 +307,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 12%;
     margin-bottom: 3%;
 }
 

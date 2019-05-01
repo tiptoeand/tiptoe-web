@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Slide from './slide'
 import LeftArrow from './LeftArrow'
 import RightArrow from './RightArrow'
+import slideshow1 from '../image/slideshow1.jpg'
+import slideshow2 from '../image/slideshow2.jpg'
+import slideshow3 from '../image/slideshow3.jpeg'
 
 export default class Slider extends Component {
   constructor(props) {
@@ -9,10 +12,9 @@ export default class Slider extends Component {
 
     this.state = {
       images: [
-        'image/slideshow1.jpg',
-        'image/slideshow2.jpg',
-        'image/slideshow3.jpg'
+        <img src = {slideshow1}/>
       ],
+
       currentIndex: 0,
       translateValue: 0
     }
