@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/Navbar.jsx';
 import tiptoe from './image/tiptoe.png';
-import email from './image/email-big.png';
-import facebook from './image/fb-big.png';
-import insta from './image/insta-big.png';
 import gray from './image/gray.png';
 import Footer from '../footer/footer';
 
-import Typing from 'react-typing-animation';
 
 
-import './Contact.css';
+import './Press.css';
 
 
-class Contact extends Component {
+class Press extends Component {
   constructor() {
     super();
 
@@ -42,7 +38,7 @@ class Contact extends Component {
   }
 
   state = {
-    name: 'CONTACT',
+    name: 'HOME',
   }
 
   render() {
@@ -90,16 +86,9 @@ class Contact extends Component {
             : (null)
         }
 
-        <div class="contactcontainer">
-          <h1>RECRUITMENT</h1>
-          <content><p>Applications for spring 2019 is now closed.</p></content>
+        <div class="presscontainer">
+          <h1>PRESS</h1>
 
-
-          <h1>CONTACT US</h1>
-          <p>www.tiptoeand.com</p>
-          <img src={facebook} /><p>https://www.facebook.com/tiptoeand/</p>
-          <img src={insta} /><p>https://www.instagram.com/tiptoeand_/</p>
-          <img src={email} /><p>tiptoeand.cornell@gmail.com</p>
         </div>
 
         <Footer />
@@ -113,4 +102,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default Press;
