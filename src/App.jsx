@@ -16,8 +16,8 @@ const AppRouter = () => (
             <Route path="/ourstory/" component={Ourstory} />
             <Route path="/contact/" component={Contact} />
             <Route path="/press/" component={Press} />
-            <Route path="/navbar/" component={Navbar} />
-            <Route path="/pressimage/" component={PressImage} />
+            {/*<Route path="/navbar/" component={Navbar} />
+            <Route path="/pressimage/" component={PressImage} />*/}
         </div>
     </Router>
 );
