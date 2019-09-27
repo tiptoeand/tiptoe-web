@@ -14,7 +14,7 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-
+  
 }
 
 /* Position and sizing of close button */
@@ -69,4 +69,194 @@ Note: Beware of modifying this element as it can break the animations - you shou
   left: 0px;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
+}
+
+
+@font-face {
+  font-family: 'FuturaBT';
+  src: url("font/FuturaBT.ttf");
+}
+
+.nav {
+    margin-top: 4%;
+    height: 100px;
+}
+
+.dropdown_b {
+  border: none;
+  background-color: white;
+  width: 93px;
+  height: 34px;
+  font-family: FuturaBT;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  float: left;
+  margin-left: 7%;
+  margin-top: 0.05%;
+}
+
+.dropdown_b:hover {
+  text-decoration: underline;
+}
+
+.dropdown_b:focus {
+  outline: none;
+}
+
+.container {
+  background-color: #dd8a8a;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonbox {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.button {
+  border: none;
+  background-color: #dd8a8a;
+  color: white;
+  font-family: FuturaBT;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.imagebox1 {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.navbarimage1 {
+  width: 200%;
+  height: 80%;
+}
+
+.imagebox2 {
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.navbarimage2 {
+  width: 200%;
+  height: 80%;
+}
+
+.imageboxtext {
+  width: 209px;
+  height: 36px;
+  text-shadow: 0 4px 8px #000000;
+  font-family: FuturaBT;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.navAbout {
+    width: 93px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navProjects {
+    width: 129px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navShop {
+    width: 74px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.navKor {
+    width: 60px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.mainlogo {
+  margin-bottom: 80px;
+  width: 20%;
+  display: block;
+  margin-left: 42%;
+  margin-right: 42%;
+
 }
