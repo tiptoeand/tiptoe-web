@@ -71,9 +71,13 @@ class Home extends Component {
     const { name } = this.state;
     return (
       <div className="App">
+        <Navbar />
+
+        {/*
         <div class="dropdown">
           <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
         </div>
+
 
         <div class="nav">
           <div class="navbutton">
@@ -110,9 +114,10 @@ class Home extends Component {
               </div>
             )
             : (null)
-        }
+        }*/}
 
-        <div class="imageText">
+
+        < div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
           <h1 class="mainImageText2">spring ‘19 new release</h1>
           <h1 class="mainImageText1">spring ‘19 new release</h1>
@@ -148,7 +153,7 @@ class Home extends Component {
         <Footer />
 
 
-      </div>
+      </div >
 
 
 
