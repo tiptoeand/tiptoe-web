@@ -49,7 +49,8 @@ class Contact extends Component {
     const { name } = this.state;
     return (
       <div className="App">
-        <div class="dropdown">
+        <Navbar />
+        {/*<div class="dropdown">
           <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
         </div>
 
@@ -88,7 +89,7 @@ class Contact extends Component {
               </div>
             )
             : (null)
-        }
+        }*/}
 
         <div class="contactcontainer">
           <h1>RECRUITMENT</h1>

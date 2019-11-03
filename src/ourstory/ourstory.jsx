@@ -47,7 +47,10 @@ class Ourstory extends Component {
     const { name } = this.state;
     return (
       <div className="App">
-        <div class="dropdown">
+        <Navbar />
+
+
+        {/*<div class="dropdown">
           <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
         </div>
 
@@ -86,7 +89,7 @@ class Ourstory extends Component {
               </div>
             )
             : (null)
-        }
+        }*/}
 
         <img src={peering} class="mainImage2" alt="" />
         <div class="ourmissioncontainer">

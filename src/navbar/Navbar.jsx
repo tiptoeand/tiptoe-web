@@ -6,6 +6,63 @@ import tiptoe from './image/tiptoe.png';
 export default class Navbar extends Component {
     constructor() {
         super();
+    }
+    state = {
+        name: 'NAVBAR',
+    }
+
+    render() {
+        const { name } = this.state;
+        return (
+            <div className="App">
+                {/*<div class="dropdown">
+                    <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
+        </div>*/}
+
+                <div class="nav">
+                    <div class="navbutton">
+                        <a href="/ourstory" class="navAbout">ABOUT</a>
+                        <a href="/press" class="navProjects">PRESS</a>
+                        <a href="/" class="navShop">SHOP</a>
+                        <a href="/contact" class="navKor">CONTACT</a>
+                        <a href="/"><img src={tiptoe} class="mainlogo" alt="logo" /></a>
+                    </div>
+                </div>
+
+                {this.state.showAbout
+                    ? (
+                        <div className="dropdown" ref={(element) => {
+                            this.dropdownAbout = element;
+                        }}
+                        >
+                            <div class="container">
+                                <div class="buttonbox">
+                                    <button class="button"> OUR STORY </button>
+                                    <button class="button"> OUR TEAM </button>
+                                    <button class="button"> PARTNERS/PRESS </button>
+                                    <button class="button"> JOIN US </button>
+                                </div>
+                                <div class="imagebox1">
+                                    <img src={gray} class="navbarimage1" />
+                                    <div class="imageboxtext">OUR STORY</div>
+                                </div>
+                                <div class="imagebox2">
+                                    <img src={gray} class="navbarimage2" />
+                                    <div class="imageboxtext">OUR STORY</div>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                    : (null)
+                }
+            </div>
+        );
+    }
+}
+
+{/*export default class Navbar extends Component {
+    constructor() {
+        super();
 
         this.state = {
             showAbout: false,
@@ -81,4 +138,5 @@ export default class Navbar extends Component {
             </div>
         );
     }
-}
+}*/}
+
