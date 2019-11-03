@@ -25,9 +25,6 @@ class Press extends Component {
         <div class="pressimages">
           <PressImage />
         </div>
-
-
-
         <Footer />
       </div>
     );

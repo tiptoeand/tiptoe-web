@@ -413,7 +413,8 @@
   font-family: FuturaBT;
   font-size: 16px;
   color: #000000;
-  padding-top: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 4vh;
 }
 
 .presscontainer h1{
