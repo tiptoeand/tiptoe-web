@@ -93,7 +93,7 @@ class Contact extends Component {
 
         <div class="contactcontainer">
           <h1>RECRUITMENT</h1>
-          <content><p>Applications for spring 2019 is now closed.</p></content>
+          <content><p>Applications for fall 2019 is now closed.</p></content>
 
 
           <h1>CONTACT US</h1>

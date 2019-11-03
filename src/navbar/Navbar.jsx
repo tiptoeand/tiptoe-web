@@ -23,8 +23,8 @@ export default class Navbar extends Component {
                     <div class="navbutton">
                         <a href="/ourstory" class="navAbout">ABOUT</a>
                         <a href="/press" class="navProjects">PRESS</a>
-                        <a href="/" class="navShop">SHOP</a>
                         <a href="/contact" class="navKor">CONTACT</a>
+                        <a href="/" class="navShop">SHOP</a>
                         <a href="/"><img src={tiptoe} class="mainlogo" alt="logo" /></a>
                     </div>
                 </div>
