@@ -139,6 +139,7 @@ class Home extends Component {
         <img src={threeimages} class="image3" alt="" />
         <img src={threesteps} class="stepsImg" alt="" />
 
+
         {/*<div class="join">
           <div class="joinEmail">
             <p class="joinEmailText">Join the TIPTOE&</p>
@@ -149,9 +150,10 @@ class Home extends Component {
           <p class="joinEmailText3">By clicking join, I accept the Privacy Policy and Terms of Use. You may unsubscribe at any time.</p>
         </div>*/}
 
-
+        {/*<div class="footerContainer">
+          <Footer />
+        </div>*/}
         <Footer />
-
 
       </div >
 
