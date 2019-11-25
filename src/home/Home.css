@@ -287,22 +287,23 @@
 
 .yourName1 {
     display: block;
-    padding-left: 50%;
-    font-size: 40px;
+    font-size: 1%;
     color: gray;
     margin-top: -4%;
+    margin-left: 18%;
 
 }
 
 .line1 {
     display: block;
     height: 1px;
-    width: 17%;
+    width: 20%;
+    min-width: 150px;
     border: 0;
     border-top: 2px solid #000000;
     padding: 0;
     position: absolute;
-    margin-left: 48%;
+    margin-left: 46%;
 }
 
 
