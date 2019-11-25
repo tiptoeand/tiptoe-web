@@ -414,13 +414,24 @@
   font-size: 16px;
   color: #000000;
   padding-top: 1vh;
-  padding-bottom: 4vh;
+  padding-bottom: 7vh;
 }
 
 .presscontainer h1{
   font-size: 50px;
   text-align: left;
   margin-left: 20%;
+  font-family: FuturaBT;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+}
+
+.presscontainer h2{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 14%;
   font-family: FuturaBT;
   font-weight: lighter;
   font-style: normal;
@@ -501,12 +512,12 @@
 
 .pressimages {
   width: 80vw;
-  height: 95vh;
+  height: 70vh;
   background-image: white;
   font-family: FuturaBT;
   font-size: 16px;
   color: #000000;
-  padding-top: 2vh;
+  padding-top: 1vh;
   padding-bottom: 2vh;
   padding-left: 10vw;
   

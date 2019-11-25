@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuna878/tiptoe-web.git"
+    "url": "git+https://github.com/tiptoeand/tiptoe-web.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yuna878/tiptoe-web/issues"
+    "url": "https://github.com/tiptoeand/tiptoe-web/issues"
   },
-  "homepage": "https://github.com/yuna878/tiptoe-web#readme",
+  "homepage": "https://github.com/tiptoeand/tiptoe-web#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",

@@ -60,14 +60,14 @@ class Home extends Component {
         </div>
 
 
-        <div class="tiptoeName">
-          <img src={tiptoe} class="nameLogo" alt="" />
+        <div class="tiptoeName1">
+          <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>
-            <span class="yourNameText">your name</span>
+            <span class="yourName1">your name</span>
             <Typing.Delay ms={1000} />
             <Typing.Backspace count={20} />
           </Typing>
-          {/*<hr class="line"></hr>*/}
+          <hr class="line1"></hr>
         </div>
 
 

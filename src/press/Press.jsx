@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../navbar/Navbar.jsx';
+import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import Footer from '../footer/footer';
 import './Press.css';
 import PressImage from './PressImage';
@@ -18,9 +18,9 @@ class Press extends Component {
     const { name } = this.state;
     return (
       <div className="App">
-        <Navbar />
+        <NavbarDesktop />
         <div class="presscontainer">
-          <h1>PRESS</h1>
+          <h2>PRESS</h2>
         </div>
         <div class="pressimages">
           <PressImage />

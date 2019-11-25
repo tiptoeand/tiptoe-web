@@ -408,7 +408,7 @@
 
 .contactcontainer {
   width: 100vw;
-  height: 100vh;
+  height: 75vh;
   background-image: white;
   font-family: FuturaBT;
   font-size: 16px;
@@ -421,17 +421,49 @@
   text-align: left;
   margin-left: 20%;
 }
-.contactcontainer content {
-  display: flex;
-}
-.contactcontainer p{
-  font-size: 40px;
+
+.contactcontainer h2{
+  font-size: 25px;
   text-align: left;
-  margin-left: 30%;
-  padding-bottom: 25px;
+  margin-left: 20%;
+  font-family: FuturaBT;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  padding-bottom: 10px;
 }
 
-.contactcontainer img{
+
+.contactcontainer content {
+  display: flex;
+  padding-bottom: 30px;
+}
+.contactcontainer p{
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.logoImage {
+  float: left;
+  height: 45px;
+  width: 45px;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+.logoImage2 {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-right: 30px;
+  margin-top: -10px;
+}
+
+.contactcontainer img2{
   padding-right: 10%;
   display: flex;
   width: 60px;

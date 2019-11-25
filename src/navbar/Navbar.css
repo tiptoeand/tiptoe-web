@@ -275,5 +275,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: block;
   margin-left: 42%;
   margin-right: 42%;
-
+  margin-top: -20px;
 }

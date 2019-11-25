@@ -47,52 +47,50 @@ class Ourstory extends Component {
         <NavbarDesktop />
 
         <img src={peering} class="mainImage2" alt="" />
+
+
         <div class="ourmissioncontainer">
           <h1>our mission</h1>
-          <p>Clothing is the final layer of expressing oneself and their values. TIPTOE& is a fashion enterprise that aims<br />
+          <p class="textContent">Clothing is the final layer of expressing oneself and their values. TIPTOE& is a fashion enterprise that aims<br />
             to transform the traditional fundraising T-shirts into trendy streetwear to raise awareness of various social<br />
             issues. By adding a layer of meaning to our clothing, our company hopes to present new perspective.</p>
+
+          <div class="tiptoeName1">
+            <img src={tiptoe} class="nameLogo1" alt="" />
+            <Typing loop={true} speed={110}>
+              <span class="yourName1">our story</span>
+              <Typing.Delay ms={1000} />
+              <Typing.Backspace count={20} />
+            </Typing>
+            <hr class="line1"></hr>
+          </div>
         </div>
-        <div class="tiptoeName">
-          <img src={tiptoe} class="nameLogo" alt="" />
-          <Typing loop={true} speed={110}>
-            <span class="yourName">our story </span>
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={20} />
-          </Typing>
-          <hr class="line"></hr>
-        </div>
+
         <div class="video">
           <iframe src="https://drive.google.com/file/d/1ws-NjD_9SmbFqMiiPgYkoRFPrr1blEZk/preview" width="720" height="480" ></iframe>
         </div>
-        <div class="ourmissioncontainer2">
-          <p>Our name comes from the idea that it doesn't take much effort to tiptoe <br />
-            and peer over a wall to gain a whole new perspective.
+
+        <div class="ourmissioncontainer3">
+
+          <p class="textContent3">Our name comes from the idea that it doesn't take much effort to tiptoe and peer over a wall to gain a whole new perspective.</p>
+          <p class="textContent3">TIPTOE& was founded by three Cornell students with two questions in<br />
+            mind: </p>
+          <p class="textContent3">Why are fundraising T-shirts poorly designed?<br />Why is streetwear always associated with social resistance?</p>
+          <h2>We are challenging these norms.</h2>
           <br />
-            <br />
-            TIPTOE& was founded by three Cornell students with two questions in<br />
-            mind:
-          <br />
-            <br />
-            Why are fundraising T-shirts poorly designed?<br />Why is streetwear always associated with social resistance?<br /></p>
-          <br />
-          <h1>We are challenging these norms.</h1>
-          <br />
-          <p>By combining streetwear's provacative design with fundraising's social<br />
-            cause, we aim to <strong>redefine the culture of donation</strong>. A good cause<br />
-            doesn't necessarily have to precede consumerism. TIPTOE& partners<br />
-            with different NGOs for every social cause we want to uncover. Tiptoe&<br />
-            donates a share of profits to the partnering NGOs. So we encourage<br />
+          <p class="textContent3">By combining streetwear's provacative design with fundraising's social
+            cause, we aim to <strong>redefine the culture of donation</strong>. A good cause
+            doesn't necessarily have to precede consumerism. TIPTOE& partners
+            with different NGOs for every social cause we want to uncover. Tiptoe&
+            donates a share of profits to the partnering NGOs. So we encourage
             you to join us and throw on another layer.</p>
 
         </div>
 
-
-
         <Footer />
 
 
-      </div>
+      </div >
 
 
 
