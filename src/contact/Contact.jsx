@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../navbar/Navbar.jsx';
-import tiptoe from './image/tiptoe.png';
+import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import email from './image/email-big.png';
 import facebook from './image/fb-big.png';
 import insta from './image/insta-big.png';
-import gray from './image/gray.png';
 import Footer from '../footer/footer';
 
-import Typing from 'react-typing-animation';
-
-
 import './Contact.css';
-
 
 class Contact extends Component {
   constructor() {
@@ -49,47 +43,7 @@ class Contact extends Component {
     const { name } = this.state;
     return (
       <div className="App">
-        <Navbar />
-        {/*<div class="dropdown">
-          <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
-        </div>
-
-        <div class="nav">
-          <div class="navbutton">
-            <a href="" class="navProjects">PROJECTS</a>
-            <a href="" class="navKor">한국어</a>
-            <a href="" class="navShop">SHOP</a>
-            <img src={tiptoe} class="mainlogo" alt="logo" />
-          </div>
-        </div>
-
-        {
-          this.state.showAbout
-            ? (
-              <div className="dropdown" ref={(element) => {
-                this.dropdownAbout = element;
-              }}
-              >
-                <div class="container">
-                  <div class="buttonbox">
-                    <button class="button"> OUR STORY </button>
-                    <button class="button"> OUR TEAM </button>
-                    <button class="button"> PARTNERS/PRESS </button>
-                    <button class="button"> JOIN US </button>
-                  </div>
-                  <div class="imagebox1">
-                    <img src={gray} class="navbarimage1" />
-                    <div class="imageboxtext">OUR STORY</div>
-                  </div>
-                  <div class="imagebox2">
-                    <img src={gray} class="navbarimage2" />
-                    <div class="imageboxtext">OUR STORY</div>
-                  </div>
-                </div>
-              </div>
-            )
-            : (null)
-        }*/}
+        <NavbarDesktop />
 
         <div class="contactcontainer">
           <h1>RECRUITMENT</h1>
@@ -105,10 +59,7 @@ class Contact extends Component {
 
         <Footer />
 
-
       </div>
-
-
 
     );
   }

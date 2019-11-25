@@ -113,10 +113,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .container {
   background-color: #dd8a8a;
   width: 100%;
-  height: 45%;
+  height: 40%;
   position: absolute;
   display: flex;
   flex-direction: row;
+  z-index: 10;
+  max-height: 35%;
 }
 
 .buttonbox {
@@ -140,10 +142,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: block;
   margin-top: 15px;
 }
+.button:hover {
+  text-decoration: underline;
+}
 
 .button:focus {
   outline: none;
 }
+
 
 .imagebox1 {
   margin-top: 3%;
@@ -216,6 +222,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-top: 0.5%;
 }
 
+.navProjects:hover {
+  text-decoration: underline;
+}
+
 .navShop {
     width: 74px;
     height: 34px;
@@ -234,7 +244,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-top: 0.5%;
 }
 
-.navKor {
+.navShop:hover {
+  text-decoration: underline;
+}
+.navPress {
     width: 60px;
     height: 34px;
     font-family: FuturaBT;
@@ -251,6 +264,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-right: 7%;
     margin-top: 0.5%;
 }
+.navPress:hover {
+  text-decoration: underline;
+ }
+
 
 .mainlogo {
   margin-bottom: 80px;
