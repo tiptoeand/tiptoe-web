@@ -18,8 +18,9 @@ export default class Footer extends Component {
         <a href="https://www.facebook.com/tiptoeand/"><img src={fblogo} alt="tiptoe& facebook" /></a>
         <a href="https://www.instagram.com/tiptoeand_/"><img src={instalogo} alt="tiptoe& instagram" /></a>
         <a href="mailto: tiptoeand2017@gmail.com"><img src={emaillogo} alt="tiptoe& email" /></a>
-        <p>&copy; TIPTOE& 2019</p>
+        <p>&copy;TIPTOE& 2019</p>
       </div>
+
     )
   }
 }
