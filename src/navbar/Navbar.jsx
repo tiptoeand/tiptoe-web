@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import gray from './image/gray.png';
+import gray from '../image/gray.png';
 import './Navbar.css';
-import tiptoe from './image/tiptoe.png';
+import tiptoe from '../image/tiptoe.png';
 
 export default class Navbar extends Component {
     constructor() {
