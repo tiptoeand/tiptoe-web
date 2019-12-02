@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import BusinessReview from '../image/cornellbusinessreview.png';
+import Glogo from '../image/Jungle.png';
+import Koreadaily1 from '../image/koreadaily.png';
+import Koreadaily2 from '../image/koreadailylogo.jpg';
+import Koreadaily3 from '../image/koreadailylogosq.png';
+import Bluetree from '../image/bluetree.png';
 import './Press.css';
-import BusinessReview from './image/cornellbusinessreview.png';
-import Glogo from './image/Jungle.png';
-import Koreadaily1 from './image/koreadaily.png';
-import Koreadaily2 from './image/koreadailylogo.jpg';
-import Koreadaily3 from './image/koreadailylogosq.png';
-import Bluetree from './image/bluetree.png';
 
 
 class PressImage extends Component {

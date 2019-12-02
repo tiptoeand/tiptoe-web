@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import fblogo from '../image/fb-big.svg'
+import emaillogo from '../image/email-big.svg'
+import instalogo from '../image/insta-big.svg'
+import partnerlogo from '../image/partner-big.svg'
 import './footer.css'
-import fblogo from './image/fb-big.svg'
-import emaillogo from './image/email-big.svg'
-import instalogo from './image/insta-big.svg'
-import partnerlogo from './image/partner-big.svg'
 
 export default class Footer extends Component {
   state = {

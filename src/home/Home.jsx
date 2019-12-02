@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import tiptoe from './image/tiptoe.png';
-import MainImage from './image/MainImage.jpeg';
-import Timeline from './image/Timeline.png';
-import threeimages from './image/threeimages.png';
-import threesteps from './image/threesteps.png';
+import tiptoe from '../image/tiptoe.png';
+import MainImage from '../image/MainImage.jpeg';
+import Timeline from '../image/Timeline.png';
+import threeimages from '../image/threeimages.png';
+import threesteps from '../image/threesteps.png';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
-
 import Typing from 'react-typing-animation';
 import './Home.css';
 

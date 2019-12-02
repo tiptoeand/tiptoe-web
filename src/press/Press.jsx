@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import Footer from '../footer/footer';
-import './Press.css';
 import PressImage from './PressImage';
-
+import './Press.css';
 
 class Press extends Component {
   constructor() {

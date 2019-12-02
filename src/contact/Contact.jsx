@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
-//import email from './image/email-big.png';
-import facebook from './image/fb-large.svg';
-import insta from './image/insta-large.svg';
-import partner from './image/partner-large.svg';
-import email from './image/email-large.svg';
+import facebook from '../image/fb-large.svg';
+import insta from '../image/insta-large.svg';
+import partner from '../image/partner-large.svg';
+import email from '../image/email-large.svg';
 import Footer from '../footer/footer';
 
 import './Contact.css';

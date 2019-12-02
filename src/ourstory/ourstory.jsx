@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
-import tiptoe from './image/tiptoe.png';
 import Footer from '../footer/footer';
-import peering from './image/peeringdown.png';
+import tiptoe from '../image/tiptoe.png';
+import peering from '../image/peeringdown.png';
 import Typing from 'react-typing-animation';
-
 import './ourstory.css';
 
 class Ourstory extends Component {
