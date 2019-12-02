@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import tiptoe from '../image/tiptoe.png';
 import MainImage from '../image/MainImage.jpeg';
-import Timeline from '../image/Timeline.png';
-import threeimages from '../image/threeimages.png';
-import threesteps from '../image/threesteps.png';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import Typing from 'react-typing-animation';
-import './Home.css';
+import './Store.css';
 
-class Home extends Component {
+{/*const properties = {
+  duration: 5000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true
+}*/}
+
+class Store extends Component {
   constructor() {
     super();
 
@@ -38,7 +43,7 @@ class Home extends Component {
   }
 
   state = {
-    name: 'HOME',
+    name: 'STORE',
   }
 
   render() {
@@ -54,16 +59,16 @@ class Home extends Component {
         <div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>
-            <span class="yourName1">your name</span>
+            <span class="yourName1">GREEN TREE YOUTH</span>
             <Typing.Delay ms={1000} />
             <Typing.Backspace count={20} />
           </Typing>
           <hr class="line1"></hr>
         </div>
 
-        <img src={Timeline} class="timelineImg" alt="" />
+        {/*<img src={Timeline} class="timelineImg" alt="" />
         <img src={threeimages} class="image3" alt="" />
-        <img src={threesteps} class="stepsImg" alt="" />
+    <img src={threesteps} class="stepsImg" alt="" />*/}
 
         <Footer />
       </div >
@@ -72,4 +77,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Store;

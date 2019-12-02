@@ -3,11 +3,11 @@ import gray from '../image/gray.png';
 import './Navbar.css';
 import tiptoe from '../image/tiptoe.png';
 
-const slideImages = [
+{/*const slideImages = [
   'image/slideshow1.jpg',
   'image/slideshow2.jpg',
   'image/slideshow3.jpeg'
-];
+];*/}
 
 export default class NavbarDesktop extends Component {
   constructor() {
