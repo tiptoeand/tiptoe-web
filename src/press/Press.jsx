@@ -1,23 +1,16 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
+import NavbarMobile from '../navbar/NavbarMobile';
 import Footer from '../footer/footer';
 import PressImage from './PressImage';
 import './Press.css';
 
 class Press extends Component {
-  constructor() {
-    super();
-  }
-
-  state = {
-    name: 'PRESS',
-  }
-
   render() {
-    const { name } = this.state;
     return (
-      <div className="App">
+      <div>
         <NavbarDesktop />
+        <NavbarMobile />
         <div class="presscontainer">
           <h2>PRESS</h2>
         </div>

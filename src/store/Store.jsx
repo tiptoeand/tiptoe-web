@@ -3,16 +3,9 @@ import tiptoe from '../image/tiptoe.png';
 import MainImage from '../image/MainImage.jpeg';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
+import NavbarMobile from '../navbar/NavbarMobile';
 import Typing from 'react-typing-animation';
 import './Store.css';
-
-{/*const properties = {
-  duration: 5000,
-  transitionDuration: 500,
-  infinite: true,
-  indicators: true,
-  arrows: true
-}*/}
 
 class Store extends Component {
   constructor() {
@@ -47,10 +40,10 @@ class Store extends Component {
   }
 
   render() {
-    const { name } = this.state;
     return (
       <div className="App">
         <NavbarDesktop />
+        <NavbarMobile />
         < div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
         </div>

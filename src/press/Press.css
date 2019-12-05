@@ -53,7 +53,7 @@
 }
 .hvrbox .hvrbox-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -77,7 +77,7 @@
 
 .pressimages {
   width: 80vw;
-  height: 70vh;
+  height: 68vh;
   background-image: white;
   font-family: FuturaBT;
   font-size: 16px;
@@ -119,4 +119,21 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
+}
+
+@media (max-width: 850px){
+  .presscontainer {
+    height: 8vw;
+    min-height: 50px;
+    padding-bottom: 20px;
+  }
+
+  .presscontainer h2{
+    font-size: 20px;
+  }
+
+  .hvrbox .hvrbox-text {
+    font-size: 12px;
+  }
+  
 }

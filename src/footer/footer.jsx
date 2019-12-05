@@ -10,7 +10,6 @@ export default class Footer extends Component {
     name: 'FOOTER',
   }
   render() {
-    const { name } = this.state;
     return (
       <div class="footer">
         <div class="Rectangle"></div>

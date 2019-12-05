@@ -12,7 +12,6 @@ export default class Navbar extends Component {
     }
 
     render() {
-        const { name } = this.state;
         return (
             <div className="Nav">
                 {/*<div class="dropdown">

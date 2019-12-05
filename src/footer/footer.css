@@ -29,3 +29,24 @@
   padding-right: 10px;
   height: 20px;
 }
+
+@media (max-width: 815px){
+  .footer {
+    font-size: 12px;
+  }
+  .footer img {
+    padding-right: 8px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    padding-top: 18vh;
+    font-size: 10px;
+  }
+  .footer img {
+    padding-right: 6px;
+  }
+
+}

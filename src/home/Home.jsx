@@ -6,6 +6,7 @@ import threeimages from '../image/threeimages.png';
 import threesteps from '../image/threesteps.png';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
+import NavbarMobile from '../navbar/NavbarMobile';
 import Typing from 'react-typing-animation';
 import './Home.css';
 
@@ -42,10 +43,10 @@ class Home extends Component {
   }
 
   render() {
-    const { name } = this.state;
     return (
       <div className="App">
         <NavbarDesktop />
+        <NavbarMobile />
         < div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
         </div>
@@ -54,7 +55,7 @@ class Home extends Component {
         <div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>
-            <span class="yourName1">your name</span>
+            <span class="yourName2">your name</span>
             <Typing.Delay ms={1000} />
             <Typing.Backspace count={20} />
           </Typing>

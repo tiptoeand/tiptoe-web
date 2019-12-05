@@ -1,40 +1,39 @@
 @font-face {
-    font-family: 'FuturaBT';
-    src: url("../font/FuturaBT.ttf");
-  }
+  font-family: 'FuturaBT';
+  src: url("../font/FuturaBT.ttf");
+}
 
-  .imageText {
-      margin-bottom: 10%;
-  }
-  
-  .mainImage {
-      width: 100%;
-      position: relative;
-      text-align: center;
-      z-index: -1;
-  }
+.imageText {
+    margin-bottom: 10%;
+}
 
-  .tiptoeName1 {
-    margin-top: -3%;
-    margin-bottom: 5%;
-    float: left;
-    clear: none;
+.mainImage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+.tiptoeName1 {
+  margin-top: -3%;
+  margin-bottom: 5%;
+  float: left;
+  clear: none;
 }
 
 .nameLogo1 {
     width: 15%;
-    margin-left: 30%;
     display: block;
+    padding-left: 10%;
 
 }
 
-.yourName1 {
+.yourName2 {
     display: block;
-    font-size: 110%;
     color: gray;
     margin-top: -4%;
-    margin-left: 18%;
-
+    margin-left: 0%;
+    padding-left: 50vw;
 }
 
 .line1 {
@@ -174,3 +173,12 @@ height: 125px;
   text-align: center;
   margin-top: 1%;
 }
+
+@media (max-width: 850px){
+  .yourName2{
+    font-size: 14px;
+  }
+}
+
+
+
