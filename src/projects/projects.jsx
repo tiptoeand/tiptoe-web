@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import tiptoe from '../image/tiptoe.png';
-import MainImage from '../image/MainImage.jpeg';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
-import Typing from 'react-typing-animation';
+import Project1 from './project1';
+import Project2 from './project2';
+import Project3 from './project3';
+import ProjectPageImage from '../image/projectpage.jpg';
 import './projects.css';
 
 class Projects extends Component {
@@ -41,26 +42,15 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="projectpage">
         <NavbarDesktop />
         <NavbarMobile />
-        <h1>Projects Page</h1>
-        <br></br>
-        <br></br>
-        {/*< div class="imageText">
-          <img src={MainImage} class="mainImage" alt="" />
-    </div>*/}
-
-
-        {/*<div class="tiptoeName1">
-          <img src={tiptoe} class="nameLogo1" alt="" />
-          <Typing loop={true} speed={110}>
-            <span class="yourName1">GREEN TREE YOUTH</span>
-            <Typing.Delay ms={1000} />
-            <Typing.Backspace count={20} />
-          </Typing>
-          <hr class="line1"></hr>
-    </div>*/}
+        < div class="imageText">
+          <img src={ProjectPageImage} class="mainImage" alt="" />
+        </div>
+        <Project3 />
+        <Project2 />
+        <Project1 />
 
         <Footer />
       </div >
