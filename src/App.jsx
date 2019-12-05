@@ -6,7 +6,8 @@ import Contact from './contact/Contact.jsx';
 import Press from './press/Press.jsx';
 import Navbar from './navbar/Navbar';
 import Store from './store/Store';
-//import PressImage from './press/PressImage';
+import Projects from './projects/projects';
+import Ourteam from './ourteam/ourteam';
 
 const AppRouter = () => (
     <Router>
@@ -17,6 +18,10 @@ const AppRouter = () => (
             <Route path="/press/" component={Press} />
             <Route path="/navbar/" component={Navbar} />
             <Route path="/shop/" component={Store} />
+            <Route path="/ourteam/" component={Ourteam} />
+            <Route path="/projects/" component={Projects} />
+
+
         </div>
     </Router>
 );

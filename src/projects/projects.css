@@ -1,0 +1,504 @@
+@font-face {
+  font-family: 'FuturaBT';
+  src: url("../font/FuturaBT.ttf");
+}
+
+.nav {
+    margin-top: 4%;
+    height: 100px;
+}
+
+.dropdown_b {
+  border: none;
+  background-color: white;
+  width: 93px;
+  height: 34px;
+  font-family: FuturaBT;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  float: left;
+  margin-left: 7%;
+  margin-top: 0.05%;
+}
+
+.dropdown_b:hover {
+  text-decoration: underline;
+}
+
+.dropdown_b:focus {
+  outline: none;
+}
+
+.container {
+  background-color: #dd8a8a;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonbox {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.button {
+  border: none;
+  background-color: #dd8a8a;
+  color: white;
+  font-family: FuturaBT;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.imagebox1 {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+.navbarimage1 {
+  width: 200%;
+  height: 80%;
+}
+
+.imagebox2 {
+  margin-top: 3%;
+  margin-left: 20%;
+}
+
+.navbarimage2 {
+  width: 200%;
+  height: 80%;
+}
+
+.imageboxtext {
+  width: 209px;
+  height: 36px;
+  text-shadow: 0 4px 8px #000000;
+  font-family: FuturaBT;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.navAbout {
+    width: 93px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navProjects {
+    width: 129px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: left;
+    margin-left: 7%;
+    margin-top: 0.5%;
+}
+
+.navShop {
+    width: 74px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.navPress {
+  width: 60px;
+  height: 34px;
+  font-family: FuturaBT;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  float: right;
+  margin-right: 7%;
+  margin-top: 0.5%;
+}
+
+.navKor {
+    width: 60px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7%;
+    margin-top: 0.5%;
+}
+
+.mainlogo {
+  margin-bottom: 80px;
+  width: 20%;
+  display: block;
+  margin-left: 42%;
+  margin-right: 42%;
+
+}
+
+.imageText {
+    margin-bottom: 10%;
+}
+
+.mainImage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+.mainImageText1 {
+    width: 400px;
+    height: 210px;
+    font-family: Times;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    position: absolute;
+    right: 5%;
+    bottom: -60px;
+}
+
+.mainImageText2 {
+    width: 400px;
+    height: 210px;
+    font-family: Times;
+    font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: right;
+    color: #dd8a8a;
+    position: absolute;
+    right: 5.4%;
+    bottom: -62px;
+}
+
+.tiptoeNameContainer {
+  padding-top: 10px;
+  margin-top: -20px;
+  max-height: 80px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 100vw;
+  color: #858585;
+  letter-spacing: 0.1px;
+  font-style: normal;
+  font-size: 14px;
+  font-family: FuturaBT;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.textContainer {
+  overflow: auto;
+
+}
+
+.tiptoeName1 {
+  margin-top: -3%;
+  margin-bottom: 5%;
+  float: left;
+  clear: none;
+}
+
+.nameLogo1 {
+  width: 15%;
+  margin-left: 30%;
+  display: block;
+
+}
+
+.yourName1 {
+  display: block;
+  font-size: 100%;
+  color: gray;
+  margin-top: -4%;
+  margin-left: 18%;
+
+}
+
+.line1 {
+  display: block;
+  height: 1px;
+  width: 20%;
+  min-width: 150px;
+  border: 0;
+  border-top: 2px solid #000000;
+  padding: 0;
+  position: absolute;
+  margin-left: 46%;
+}
+
+
+.tiptoeName {
+    margin-top: -3%;
+    margin-bottom: 5%;
+    float: left;
+    clear: none;
+}
+
+.nameLogo {
+    width: 50px;
+    padding-right: 50%;
+    display: block;
+    max-height: 35px;
+    height: auto;
+}
+
+.yourName {
+    display: block;
+    padding-left: 50%;
+    font-size: normal;
+    color: gray;
+    margin-top: -4%;
+    max-height: 35px;
+    width: 35px;
+    max-width: 17%;
+}
+
+.yourNameText {
+  font-size: 30px;
+  color: gray;
+  display: block;
+  height: 35px;
+  width: 17%;
+  border: 0;
+  border-bottom: 2px solid #000000;
+  padding: 0;
+  position: absolute;
+  margin-left: 48%;
+  margin-top: -45px;
+  padding-bottom: 20px;
+  padding-left: 4%;
+} 
+
+.line {
+    display: block;
+    height: 1px;
+    width: 17%;
+    border: 0;
+    border-top: 2px solid #000000;
+    padding: 0;
+    position: absolute;
+    margin-left: 48%;
+}
+
+.p3launch {
+    height: 45px;
+    font-family: FuturaBT;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #838383;
+    margin-left: 7%;
+    margin-bottom: 0.1%;
+}
+
+.timelineImg {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.image3 {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.stepsImg {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+
+.footerContainer {
+  height: 125px;
+}
+
+.join {
+    background-color: #dd8a8a;
+    height: 230px;
+}
+
+.joinEmail {
+    padding-top: 2.5%;
+    display: block;
+    margin: auto;
+}
+
+.joinEmailText {
+    font-family: FuturaBT;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 22%;
+}
+
+.emailRect {
+    border: solid 2px #ffffff;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 39%;
+}
+
+.joinButton {
+    border: none;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 0 #858585;
+    font-family: FuturaBT;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #dd8a8a;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 65%;
+}
+
+.joinEmailText2 {
+    font-family: FuturaBT;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.joinEmailText3 {
+    font-family: FuturaBT;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer {
+    height: 200px;
+}
+
+.tiptoe {
+    font-family: FuturaBT;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #858585;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
