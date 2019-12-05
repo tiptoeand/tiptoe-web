@@ -61,10 +61,6 @@
   height: 200px;
 }
 
-.gallery:hover {
-  cursor: pointer;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 .gallery img {
   width: 18vw;
   height: auto;
@@ -72,7 +68,7 @@
   max-width:150px; 
 }
 .gallery .desc1 {
-  width: 100%;
+  width: 90%;
   color: black;
   font-size: 18px;
 }
