@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import tiptoe from '../image/tiptoe.png';
-import MainImage from '../image/MainImage.jpeg';
+import teamimage from '../image/team.jpg';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
+import TeamContent from './teamcontent';
 import Typing from 'react-typing-animation';
 import './ourteam.css';
 
@@ -41,29 +42,25 @@ class Ourteam extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="ourteampage">
         <NavbarDesktop />
         <NavbarMobile />
-        <h1>Our Team Page</h1>
-        <br></br>
-        {/*< div class="imageText">
-          <img src={MainImage} class="mainImage" alt="" />
+        < div class="imageText">
+          <img src={teamimage} class="mainImage" alt="" />
         </div>
 
 
-        <div class="tiptoeName1">
-          <img src={tiptoe} class="nameLogo1" alt="" />
+        <div class="tiptoeNameTeam">
+          <img src={tiptoe} class="nameLogoTeam" alt="" />
           <Typing loop={true} speed={110}>
-            <span class="yourName1">GREEN TREE YOUTH</span>
+            <span class="yourNameTeam">our members</span>
             <Typing.Delay ms={1000} />
             <Typing.Backspace count={20} />
           </Typing>
-          <hr class="line1"></hr>
-    </div>*/}
+          <hr class="lineTeam"></hr>
+        </div>
 
-        {/*<img src={Timeline} class="timelineImg" alt="" />
-        <img src={threeimages} class="image3" alt="" />
-    <img src={threesteps} class="stepsImg" alt="" />*/}
+        <TeamContent />
 
         <Footer />
       </div >
