@@ -53,6 +53,9 @@
   .ourteampage .yourNameTeam {
     font-size: 20px;
   }
+  .ourteampage .tiptoeNameTeam {
+    display: none;
+  }
 
 }
 
@@ -81,6 +84,6 @@
     padding-left:24vw;
     padding-bottom: 10px;
   }
-  
+
 
 }
