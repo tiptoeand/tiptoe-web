@@ -44,12 +44,15 @@ class Projects extends Component {
       <div className="App">
         <NavbarDesktop />
         <NavbarMobile />
-        < div class="imageText">
+        <h1>Projects Page</h1>
+        <br></br>
+        <br></br>
+        {/*< div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
-        </div>
+    </div>*/}
 
 
-        <div class="tiptoeName1">
+        {/*<div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>
             <span class="yourName1">GREEN TREE YOUTH</span>
@@ -57,11 +60,7 @@ class Projects extends Component {
             <Typing.Backspace count={20} />
           </Typing>
           <hr class="line1"></hr>
-        </div>
-
-        {/*<img src={Timeline} class="timelineImg" alt="" />
-        <img src={threeimages} class="image3" alt="" />
-    <img src={threesteps} class="stepsImg" alt="" />*/}
+    </div>*/}
 
         <Footer />
       </div >

@@ -44,7 +44,9 @@ class Ourteam extends Component {
       <div className="App">
         <NavbarDesktop />
         <NavbarMobile />
-        < div class="imageText">
+        <h1>Our Team Page</h1>
+        <br></br>
+        {/*< div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
         </div>
 
@@ -57,7 +59,7 @@ class Ourteam extends Component {
             <Typing.Backspace count={20} />
           </Typing>
           <hr class="line1"></hr>
-        </div>
+    </div>*/}
 
         {/*<img src={Timeline} class="timelineImg" alt="" />
         <img src={threeimages} class="image3" alt="" />
