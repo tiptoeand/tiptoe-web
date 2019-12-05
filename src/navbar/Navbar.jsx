@@ -14,7 +14,7 @@ export default class Navbar extends Component {
     render() {
         const { name } = this.state;
         return (
-            <div className="App">
+            <div className="Nav">
                 {/*<div class="dropdown">
                     <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
         </div>*/}

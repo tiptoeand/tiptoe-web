@@ -186,3 +186,14 @@
   margin-right: 42%;
   margin-top: -20px;
 }
+
+@media (max-width: 815px) {
+  .Nav {
+      display: None;
+  }
+  .navbutton {
+    display: None;
+  }
+}
+
+
