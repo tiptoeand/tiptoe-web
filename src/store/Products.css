@@ -3,7 +3,7 @@
   src: url("../font/FuturaBT.ttf");
 }
 
-.teams {
+.products {
   width: 60vw;
   max-height: 200%;
   min-height: 200%;
@@ -11,73 +11,73 @@
   flex-wrap: wrap;
   margin-top: 30px;
   align-content: center;
-  text-align: center;
+  text-align: left;
   padding-left: 60vw;
   font-family: FuturaBT;
   margin-left: -40vw;
 }
-.teams .teamsection{
+.products .productsection{
   width: 80vw;
   padding-left: 0vw;
   text-align: left;
 }
 /*Used for adding image at the beginning of Eboard Section*/
-.teams .gallery1 {
+.products .gallery1 {
   width: 200px;
   margin-left: 15px;
   border: 1px solid white;
   max-height: 100px;
 }
-.teams .gallery1 img {
+.products .gallery1 img {
   width: 100%;
   height: auto;
 }
 /*Individual Eboard Tile*/
-.teams .gallery {
+.products .gallery {
   width: 160px;
   padding-right: 0px;
   margin-bottom: 20px;
   border: 1px solid snow;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   height: 280px;
   padding-bottom: 10px;
 }
 /*Space between Eboard Tiles*/
-.teams .galleryspace {
+.products .galleryspace {
   width: 10px;
   height: 200px;
 }
 
-.teams .gallery img {
+.products .gallery img {
   width: 18vw;
   height: auto;
   max-height: 220px;
   max-width:150px; 
 }
-.teams .gallery .desc1 {
+.products .gallery .desc1 {
   width: 90%;
   color: black;
-  font-size: 18px;
+  font-size: 12px;
 }
-.teamcontent .membertopimage {
+.productcontent .membertopimage {
   width: 80vw;
   height: 30vw;
   align-content: center;
 }
-.teamcontent .membertopimage img {
+.productcontent .membertopimage img {
   padding-left: 50vw;
   margin-left: -30vw;
   width: 58vw;
 }
-.teamcontent .membertopimage2 {
+.productcontent .membertopimage2 {
   width: 80vw;
   height: 30vw;
   align-content: center;
   display: none;
 }
 
-.teamcontent .inclusiontext {
+.productcontent .inclusiontext {
   width: 60vw;
   padding-left: 50vw;
   margin-left: -30vw;
@@ -88,46 +88,46 @@
 
 
 @media (max-width: 850px){
-  .teams .gallery {
+  .products.gallery {
     width: 18vw;
     padding-right: 0px;
     margin-bottom: 20px;
     border: 1px solid snow;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     height: auto;
     padding-bottom: 10px;
   }
-  .teams .gallery .desc1 {
+  .products .gallery .desc1 {
     font-size: 14px;
   }
-  .teamcontent .membertopimage {
+  .productcontent .membertopimage {
     display: none;
   }
-  .teamcontent .membertopimage2 {
+  .productcontent .membertopimage2 {
     display: inline-block;
     max-width: 60vw;
   }
-  .teamcontent .membertopimage2 img {
+  .productcontent .membertopimage2 img {
     padding-left: 50vw;
     margin-left: -30vw;
     width: 58vw;
     padding-bottom: 30px;
     padding-top: 45px;;
   }
-  .teams {
+  .products {
     display: none;
   }
-  .teamcontent .inclusiontext h2{
+  .productcontent .inclusiontext h2{
     font-size: 16px;
   }
 }
 
 @media (max-width: 450px){
-  .teamcontent .inclusiontext h2{
+  .productcontent .inclusiontext h2{
     font-size: 14px;
   }
-  .teamcontent .inclusiontext p{
+  .productcontent .inclusiontext p{
     font-size: 12px;
   }
 }

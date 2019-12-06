@@ -12,7 +12,7 @@ class TeamContent extends Component {
 
   render() {
     return (
-      <div>
+      <div class="teamcontent">
         <div class="inclusiontext"><h2>INCLUSIVE COMMUNITY</h2></div>
         <div class="inclusiontext"><p>At TIPTOE&, we believe that diversity fosters creativity and accerlerates innovation. We value the unique backgrounds and experiences eveeryone brings, and want all who join us to realize their full potential. Because different perspectives can fuel the best ideas, we are committed to a workplace that is increasingly diverse and inclusive.</p></div>
         <div class="membertopimage"><img src={team_desktop} alt="teams info" /></div>

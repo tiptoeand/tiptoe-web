@@ -4,6 +4,7 @@ import MainImage from '../image/MainImage.jpeg';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
+import Products from './Products';
 import Typing from 'react-typing-animation';
 import './Store.css';
 
@@ -48,8 +49,7 @@ class Store extends Component {
           <img src={MainImage} class="mainImage" alt="" />
         </div>
 
-
-        <div class="tiptoeName1">
+        {/*<div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>
             <span class="yourName1">GREEN TREE YOUTH</span>
@@ -57,11 +57,8 @@ class Store extends Component {
             <Typing.Backspace count={20} />
           </Typing>
           <hr class="line1"></hr>
-        </div>
-
-        {/*<img src={Timeline} class="timelineImg" alt="" />
-        <img src={threeimages} class="image3" alt="" />
-    <img src={threesteps} class="stepsImg" alt="" />*/}
+    </div>*/}
+        <Products />
 
         <Footer />
       </div >

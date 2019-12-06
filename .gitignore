@@ -76,3 +76,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /coverage
+/src/service-account.json
+
