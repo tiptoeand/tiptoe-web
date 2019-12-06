@@ -59,7 +59,7 @@ class Project1 extends Component {
     return (
       <div class="project1page">
         <div class="inclusiontext"><h2>PROJECT_01: UNSPOKEN VIOLENCE</h2></div>
-        <div class="inclusiontext"><p>In 2017, Tiptoe& partnered with Greeen Tree Youth Violence Prevention Foundation, a leading NGO which prevents school violence in South Korea. Our partnership directed Korean public's attention to <strong>Project_01: Unspoken Violence</strong> through which we donated to provide medical treatment to a victim of school violence.</p></div>
+        <div class="inclusiontext"><p>In 2017, TIPTOE& partnered with Greeen Tree Youth Violence Prevention Foundation, a leading NGO which prevents school violence in South Korea. Our partnership directed Korean public's attention to <strong>Project_01: Unspoken Violence</strong> through which we donated to provide medical treatment to a victim of school violence.</p></div>
         <div class="photogallery">
           <Gallery photos={photos1} />
           <Gallery photos={photos2} />

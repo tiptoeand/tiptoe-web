@@ -38,7 +38,7 @@ class Products extends Component {
   render() {
     return (
       <div class="productcontent">
-        <div class="inclusiontext"><h2>Tiptoe& Store</h2></div>
+        <div class="inclusiontext"><h2>TIPTOE& Store</h2></div>
 
         <div class="products">
           <div class="productsection"><h2>PROJECT_02</h2></div>
