@@ -142,6 +142,9 @@
     .header {
         display: None;
     }
+    .mobilenavbar {
+      display: None;
+    }
   }
 
   @media (max-width: 500px) {

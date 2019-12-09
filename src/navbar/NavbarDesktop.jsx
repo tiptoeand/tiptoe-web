@@ -38,16 +38,18 @@ export default class NavbarDesktop extends Component {
   render() {
     return (
       <div className="NavDesktop">
-        <div class="dropdown">
+        {/*<div class="dropdown">
           <button class="dropdown_b" onClick={this.showAbout}>ABOUT</button>
-        </div>
+    </div>*/}
 
-        <div class="nav">
+        <div class="navdesktop">
           <div class="navbutton">
+            <a href="/ourstory" class="dropdown_b">ABOUT</a>
             <a href="/projects" class="navProjects">PROJECTS</a>
-            <a href="/shop" class="navShop">SHOP</a>
+            <a href="/contact" class="navShop">CONTACT</a>
+            {/*<a href="/shop" class="navShop">SHOP</a>*/}
             <a href="/press" class="navPress">PRESS</a>
-            <a href="/"><img src={tiptoe} class="mainlogo" alt="Tiptoe& Logo" /></a>
+            <a href="/"><img src={tiptoe} class="mainlogo" alt="TIPTOE& Logo" /></a>
           </div>
         </div>
 

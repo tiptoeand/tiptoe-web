@@ -4,9 +4,19 @@
 }
 
 .nav {
-    margin-top: 4%;
-    height: 100px;
+    margin-top: 10px;
+    height: 60px;
 }
+
+.navdesktop {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 50px;
+  height: 50px;
+  width: 100vw;
+}
+
 
 .dropdown_b {
   border: none;
@@ -25,7 +35,8 @@
   text-decoration: none;
   float: left;
   margin-left: 7%;
-  margin-top: 0.05%;
+  margin-top: 30px;
+  padding-top: 10px;
 }
 
 .dropdown_b:hover {
@@ -205,11 +216,13 @@ text-decoration: underline;
 
 .mainlogo {
   margin-bottom: 80px;
-  width: 20%;
   display: block;
   margin-left: 42%;
-  margin-right: 42%;
   margin-top: -20px;
+  max-width: 238px;
+  max-height: 50px;
+  height: auto;
+  width: auto;
 }
 
 @media(max-width: 1199px){
@@ -228,10 +241,14 @@ text-decoration: underline;
   .imagebox2 .imageboxtext {
     margin-left: -180px;
   }
+  .navdesktop {
+    max-height: 50px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 850px) {
-  .nav {
+  .navdesktop {
       display: None;
   }
   .dropdown {
