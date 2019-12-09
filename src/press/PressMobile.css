@@ -12,6 +12,7 @@
   align-content: center;
   text-align: center;
   font-family: FuturaBT;
+  margin-left: 20px;
 }
 
 .pressmobiles .pressmobilescontent {
@@ -33,8 +34,44 @@
   width: 68%;
 }
 
+.pressmobilesdesc2{
+  font-size: 18px;
+  font-family: FuturaBT;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: underline;
+  width: 68%;
+  padding-left: 60px;
+}
+
+.pressmobiles .pressmobilescontent2 {
+  width: 45vw;
+  margin-left: -5px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.pressmobiles .pressmobilescontent2 img {
+  width: 160px;
+  height: auto;
+}
+
+
+
+
+.pressmobilecontent{
+  margin-top: -50px;
+  padding-bottom: 40px;
+}
+.pressline {
+  width: 15vw;
+  overflow: hidden;
+  margin-left: 44vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @media (min-width: 851px){
-  .pressmobiles {
+  .pressmobilecontent {
     display: none;
   }
 }
