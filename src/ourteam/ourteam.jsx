@@ -7,6 +7,7 @@ import NavbarMobile from '../navbar/NavbarMobile';
 import TeamContent from './teamcontent';
 import Typing from 'react-typing-animation';
 import './ourteam.css';
+import Navbar from '../navbar/Navbar';
 
 class Ourteam extends Component {
   constructor() {
@@ -43,8 +44,7 @@ class Ourteam extends Component {
   render() {
     return (
       <div className="ourteampage">
-        <NavbarDesktop />
-        <NavbarMobile />
+        <Navbar />
         < div class="imageText">
           <img src={teamimage} class="mainImage" alt="" />
         </div>

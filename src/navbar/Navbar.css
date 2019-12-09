@@ -3,25 +3,16 @@
   src: url("../font/FuturaBT.ttf");
 }
 
-.nav {
-    margin-top: 10px;
-    height: 60px;
-}
-
-.navdesktop {
-  margin-top: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 50px;
-  height: 50px;
+.navbar {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  max-height: 10px;
   width: 100vw;
 }
 
-
-.dropdown_b {
-  border: none;
-  background-color: white;
-  width: 93px;
+.navbar .navbutton .navLeft {
+  width: 60px;
   height: 34px;
   font-family: FuturaBT;
   font-size: 18px;
@@ -35,98 +26,15 @@
   text-decoration: none;
   float: left;
   margin-left: 7%;
-  margin-top: 30px;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
-.dropdown_b:hover {
+.navbar .navbutton .navLeft:hover {
   text-decoration: underline;
 }
 
-.dropdown_b:focus {
-  outline: none;
-}
-
-.container {
-  background-color: #dd8a8a;
-  width: 100%;
-  height: 40%;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  z-index: 10;
-  max-height: 35%;
-}
-
-.buttonbox {
-  margin-top: 3%;
-  margin-left: 5%;
-}
-
-.button {
-  border: none;
-  background-color: #dd8a8a;
-  color: white;
-  font-family: FuturaBT;
-  font-size: 14px;
-  font-weight: lighter;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin-top: 15px;
-}
-.button:hover {
-  text-decoration: underline;
-}
-
-.button:focus {
-  outline: none;
-}
-
-
-.imagebox1 {
-  margin-top: 3%;
-  margin-left: 10%;
-}
-
-.navbarimage1 {
-  width: 200%;
-  height: 80%;
-}
-
-.imagebox2 {
-  margin-top: 3%;
-  margin-left: 20%;
-}
-
-.navbarimage2 {
-  width: 200%;
-  height: 80%;
-}
-
-.imageboxtext {
-  width: 209px;
-  height: 36px;
-  text-shadow: 0 4px 8px #000000;
-  font-family: FuturaBT;
-  font-size: 18px;
-  font-weight: 200;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.1px;
-  text-align: center;
-  color: #ffffff;
-}
-
-.navAbout {
-  border: none;
-  background-color: white;
-  width: 93px;
+.navbar .navbuttom .navRight {
+  width: 60px;
   height: 34px;
   font-family: FuturaBT;
   font-size: 18px;
@@ -138,39 +46,29 @@
   text-align: center;
   color: #000000;
   text-decoration: none;
-  float: left;
-  margin-left: 7%;
-  margin-top: 0.05%;
+  float: right;
+  margin-right: 7%;
+  margin-top: 20px;
 }
 
-.navAbout:hover {
+.navbar .navbuttom .navRight:hover {
 text-decoration: underline;
 }
 
 
-.navProjects {
-    width: 60px;
-    height: 34px;
-    font-family: FuturaBT;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.1px;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    float: left;
-    margin-left: 7%;
-    margin-top: 0.5%;
+.navbar .navbuttom  .mainNavLogo {
+  margin-bottom: 80px;
+  display: block;
+  margin-left: 42%;
+  margin-top: -20px;
+  max-width: 238px;
+  max-height: 50px;
+  height: auto;
+  width: auto;
 }
 
-.navProjects:hover {
-  text-decoration: underline;
-}
 
-.navShop {
+.navbar .navbuttom .navShop {
     width: 60px;
     height: 34px;
     font-family: FuturaBT;
@@ -185,13 +83,14 @@ text-decoration: underline;
     text-decoration: none;
     float: right;
     margin-right: 7%;
-    margin-top: 0.5%;
+    margin-top: 20px;
 }
 
-.navShop:hover {
+.navbar .navbuttom .navShop:hover {
   text-decoration: underline;
 }
-.navPress {
+
+.navbar .navbuttom .navPress {
     width: 60px;
     height: 34px;
     font-family: FuturaBT;
@@ -206,7 +105,7 @@ text-decoration: underline;
     text-decoration: none;
     float: right;
     margin-right: 7vw;
-    margin-top: 0.5%;
+    margin-top: 20px
 }
 
 .navPress:hover {
@@ -214,44 +113,28 @@ text-decoration: underline;
  }
 
 
-.mainlogo {
+ .navbar .navbuttom  .mainlogo {
   margin-bottom: 80px;
   display: block;
   margin-left: 42%;
   margin-top: -20px;
   max-width: 238px;
-  max-height: 50px;
+  max-height: 40px;
   height: auto;
   width: auto;
 }
 
-@media(max-width: 1199px){
-  .dropdown .container {
-    height: 25vw;
-    min-height:200px;
-  }
-  .imagebox1 img{
-    width: 30vw;
-  }
-  .imagebox2 img{
-    width: 30vw;
-    margin-left: -30vw;
-    padding-left: 12vw;
-  }
-  .imagebox2 .imageboxtext {
-    margin-left: -180px;
-  }
-  .navdesktop {
-    max-height: 50px;
-    height: 50px;
-  }
-}
-
 @media (max-width: 850px) {
-  .navdesktop {
-      display: None;
+  .navbar .navbutton .navLeft {
+    display: None;
   }
-  .dropdown {
+  .navbar .navbutton .navLeft {
+    display: None;
+  }
+  .navbar .navbutton .navShop {
+    display: None;
+  }
+  .navbar .navbutton .navPress {
     display: None;
   }
 }

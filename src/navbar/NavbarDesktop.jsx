@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import gray from '../image/gray.png';
-import './Navbar.css';
+import './NavbarDesktop.css';
 import tiptoe from '../image/tiptoe.png';
 
 export default class NavbarDesktop extends Component {

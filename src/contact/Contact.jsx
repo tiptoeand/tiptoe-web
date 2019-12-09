@@ -6,6 +6,7 @@ import insta from '../image/insta-large.svg';
 import partner from '../image/partner-large.svg';
 import email from '../image/email-large.svg';
 import Footer from '../footer/footer';
+import Navbar from '../navbar/Navbar';
 
 import './Contact.css';
 
@@ -44,8 +45,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarDesktop />
-        <NavbarMobile />
+        <Navbar />
 
         <div class="contactcontainer">
           <h2>RECRUITMENT</h2>

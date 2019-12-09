@@ -6,6 +6,7 @@ import Project1 from './project1';
 import Project2 from './project2';
 import Project3 from './project3';
 import ProjectPageImage from '../image/projectpage.jpg';
+import Navbar from '../navbar/Navbar';
 import './projects.css';
 
 class Projects extends Component {
@@ -43,8 +44,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectpage">
-        <NavbarDesktop />
-        <NavbarMobile />
+        <Navbar />
         < div class="imageText">
           <img src={ProjectPageImage} class="mainImage" alt="" />
         </div>

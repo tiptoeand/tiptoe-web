@@ -7,6 +7,7 @@ import threesteps from '../image/threesteps.png';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
+import Navbar from '../navbar/Navbar';
 import Typing from 'react-typing-animation';
 import './Home.css';
 
@@ -45,8 +46,7 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarDesktop />
-        <NavbarMobile />
+        <Navbar />
         < div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
         </div>

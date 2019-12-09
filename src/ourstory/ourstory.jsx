@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
+import Navbar from '../navbar/Navbar';
 import Footer from '../footer/footer';
 import tiptoe from '../image/tiptoe.png';
 import peering from '../image/peeringdown.png';
@@ -38,8 +39,7 @@ class Ourstory extends Component {
   render() {
     return (
       <div className="App">
-        <NavbarDesktop />
-        <NavbarMobile />
+        <Navbar />
 
         <img src={peering} class="mainImage2" alt="" />
 
