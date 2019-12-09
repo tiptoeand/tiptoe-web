@@ -44,7 +44,8 @@ class Projects extends Component {
   render() {
     return (
       <div className="projectpage">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
         < div class="imageText">
           <img src={ProjectPageImage} class="mainImage" alt="" />
         </div>

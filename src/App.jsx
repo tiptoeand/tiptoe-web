@@ -8,6 +8,7 @@ import Projects from './projects/projects';
 import Navbar from './navbar/Navbar';
 import Store from './store/Store';
 import Ourteam from './ourteam/ourteam';
+import PressMobile from './press/PressMobile';
 
 const AppRouter = () => (
     <Router>
@@ -20,7 +21,7 @@ const AppRouter = () => (
             <Route path="/shop/" component={Store} />
             <Route path="/ourteam/" component={Ourteam} />
             <Route path="/navbar/" component={Navbar} />
-
+            <Route path="/pressmobile/" component={PressMobile} />
         </div>
     </Router>
 );

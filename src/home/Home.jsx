@@ -46,7 +46,8 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
         < div class="imageText">
           <img src={MainImage} class="mainImage" alt="" />
         </div>

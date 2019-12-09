@@ -45,7 +45,8 @@ class Contact extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
 
         <div class="contactcontainer">
           <h2>RECRUITMENT</h2>

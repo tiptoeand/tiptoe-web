@@ -39,7 +39,8 @@ class Ourstory extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
 
         <img src={peering} class="mainImage2" alt="" />
 

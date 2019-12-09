@@ -10,7 +10,7 @@ label .menu {
   position: absolute;
   right: -100px;
   top: -100px;
-  z-index: 100;
+  z-index: -1;
   width: 200px;
   height: 180px;
   background: transparent;

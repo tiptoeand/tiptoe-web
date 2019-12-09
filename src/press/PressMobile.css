@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'FuturaBT';
+  src: url("../font/FuturaBT.ttf");
+}
+
+.pressmobiles {
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-content: center;
+  text-align: center;
+  font-family: FuturaBT;
+}
+
+.pressmobiles .pressmobilescontent {
+  width: 45vw;
+  margin-left: 15px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.pressmobiles .pressmobilescontent img {
+  width: 160px;
+  height: auto;
+}
+.pressmobiles .pressmobilescontent .pressmobilesdesc {
+  font-size: 18px;
+  font-family: FuturaBT;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: underline;
+  width: 68%;
+}
+
+@media (min-width: 851px){
+  .pressmobiles {
+    display: none;
+  }
+}

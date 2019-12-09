@@ -44,7 +44,8 @@ class Ourteam extends Component {
   render() {
     return (
       <div className="ourteampage">
-        <Navbar />
+        <NavbarDesktop />
+        <NavbarMobile />
         < div class="imageText">
           <img src={teamimage} class="mainImage" alt="" />
         </div>
