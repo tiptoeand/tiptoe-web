@@ -12,7 +12,7 @@ const photos1 = [
   {
     src: proj1_1,
     width: 4,
-    height: 4
+    height: 5
   },
   {
     src: proj1_2,

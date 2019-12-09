@@ -45,7 +45,7 @@ const photos2 = [
   },
   {
     src: proj3_4,
-    width: 5,
+    width: 6,
     height: 4
   },
   {
