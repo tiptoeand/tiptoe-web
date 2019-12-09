@@ -178,6 +178,10 @@ height: 125px;
   .yourName2{
     font-size: 14px;
   }
+  .homeimage{
+    display: none;
+
+  }
 }
 
 

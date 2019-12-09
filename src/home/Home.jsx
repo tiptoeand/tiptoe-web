@@ -9,6 +9,7 @@ import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
 import Navbar from '../navbar/Navbar';
 import Typing from 'react-typing-animation';
+import HomeMobile from './HomeMobile';
 import './Home.css';
 
 class Home extends Component {
@@ -64,9 +65,11 @@ class Home extends Component {
         </div>
 
         <img src={Timeline} class="timelineImg" alt="" />
-        <img src={threeimages} class="image3" alt="" />
-        <img src={threesteps} class="stepsImg" alt="" />
-
+        <div class="homeimage">
+          <img src={threeimages} class="image3" alt="" />
+          <img src={threesteps} class="stepsImg" alt="" />
+        </div>
+        <HomeMobile />
         <Footer />
       </div >
 
