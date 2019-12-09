@@ -14,8 +14,8 @@ label .menu {
   width: 200px;
   height: 180px;
   background: transparent;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: .01s ease-in-out;
+  transition: .01s ease-in-out;
   box-shadow: 0 0 0 0 #dd8a8a, 0 0 0 0 #dd8a8a;
   cursor: pointer;
 }
