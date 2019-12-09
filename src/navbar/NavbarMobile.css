@@ -21,8 +21,9 @@
     background-color: #fff;
     box-shadow: 2px 2px 4px 0 rgba(0,0,0,.1);
     position: fixed;
-    width: 100%;
+    width: 95%;
     z-index:2;
+    margin-right: 10px;
   }
   
   .header ul {
@@ -136,6 +137,8 @@
   }
   .mobilenavbar {
     height: 50px;
+    width: 100vw;
+    
   }
   
   @media (min-width: 851px) {
