@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
+import NavbarMobile from '../navbar/NavbarMobile';
+import Navbar from '../navbar/Navbar';
 import Footer from '../footer/footer';
 import tiptoe from '../image/tiptoe.png';
 import peering from '../image/peeringdown.png';
@@ -34,24 +36,19 @@ class Ourstory extends Component {
     }
   }
 
-  state = {
-    name: 'OURSTORY',
-  }
-
-
   render() {
-    const { name } = this.state;
     return (
       <div className="App">
         <NavbarDesktop />
+        <NavbarMobile />
 
         <img src={peering} class="mainImage2" alt="" />
 
 
         <div class="ourmissioncontainer">
-          <h1>our mission</h1>
-          <p class="textContent">Clothing is the final layer of expressing oneself and their values. TIPTOE& is a fashion enterprise that aims<br />
-            to transform the traditional fundraising T-shirts into trendy streetwear to raise awareness of various social<br />
+          <h1>Our Mission</h1>
+          <p class="textContent">Clothing is the final layer of expressing oneself and their values. TIPTOE& is a fashion enterprise that aims
+            to transform the traditional fundraising T-shirts into trendy streetwear to raise awareness of various social
             issues. By adding a layer of meaning to our clothing, our company hopes to present new perspective.</p>
 
           <div class="tiptoeName1">
@@ -72,8 +69,7 @@ class Ourstory extends Component {
         <div class="ourmissioncontainer3">
 
           <p class="textContent3">Our name comes from the idea that it doesn't take much effort to tiptoe and peer over a wall to gain a whole new perspective.</p>
-          <p class="textContent3">TIPTOE& was founded by three Cornell students with two questions in<br />
-            mind: </p>
+          <p class="textContent3">TIPTOE& was founded by three Cornell students with two questions in mind: </p>
           <p class="textContent3">Why are fundraising T-shirts poorly designed?<br />Why is streetwear always associated with social resistance?</p>
           <h2>We are challenging these norms.</h2>
           <br />

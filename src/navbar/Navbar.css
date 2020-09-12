@@ -3,15 +3,16 @@
   src: url("../font/FuturaBT.ttf");
 }
 
-.nav {
-    margin-top: 4%;
-    height: 100px;
+.navbar {
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  max-height: 10px;
+  width: 100vw;
 }
 
-.dropdown_b {
-  border: none;
-  background-color: white;
-  width: 93px;
+.navbar .navbutton .navLeft {
+  width: 60px;
   height: 34px;
   font-family: FuturaBT;
   font-size: 18px;
@@ -25,137 +26,49 @@
   text-decoration: none;
   float: left;
   margin-left: 7%;
-  margin-top: 0.05%;
+  margin-top: 10px;
 }
 
-.dropdown_b:hover {
+.navbar .navbutton .navLeft:hover {
   text-decoration: underline;
 }
 
-.dropdown_b:focus {
-  outline: none;
-}
-
-.container {
-  background-color: #dd8a8a;
-  width: 100%;
-  height: 40%;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  z-index: 10;
-  max-height: 35%;
-}
-
-.buttonbox {
-  margin-top: 3%;
-  margin-left: 5%;
-}
-
-.button {
-  border: none;
-  background-color: #dd8a8a;
-  color: white;
-  font-family: FuturaBT;
-  font-size: 14px;
-  font-weight: lighter;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  margin-top: 15px;
-}
-.button:hover {
-  text-decoration: underline;
-}
-
-.button:focus {
-  outline: none;
-}
-
-
-.imagebox1 {
-  margin-top: 3%;
-  margin-left: 10%;
-}
-
-.navbarimage1 {
-  width: 200%;
-  height: 80%;
-}
-
-.imagebox2 {
-  margin-top: 3%;
-  margin-left: 20%;
-}
-
-.navbarimage2 {
-  width: 200%;
-  height: 80%;
-}
-
-.imageboxtext {
-  width: 209px;
-  height: 36px;
-  text-shadow: 0 4px 8px #000000;
+.navbar .navbuttom .navRight {
+  width: 60px;
+  height: 34px;
   font-family: FuturaBT;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: 0.1px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  float: right;
+  margin-right: 7%;
+  margin-top: 20px;
 }
 
-.navProjects {
-    width: 129px;
-    height: 34px;
-    font-family: FuturaBT;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.1px;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    float: left;
-    margin-left: 7%;
-    margin-top: 0.5%;
+.navbar .navbuttom .navRight:hover {
+text-decoration: underline;
 }
 
-.navProjects:hover {
-  text-decoration: underline;
+
+.navbar .navbuttom  .mainNavLogo {
+  margin-bottom: 80px;
+  display: block;
+  margin-left: 42%;
+  margin-top: -20px;
+  max-width: 238px;
+  max-height: 50px;
+  height: auto;
+  width: auto;
 }
 
-.navShop {
-    width: 74px;
-    height: 34px;
-    font-family: FuturaBT;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.1px;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    float: right;
-    margin-right: 7%;
-    margin-top: 0.5%;
-}
 
-.navShop:hover {
-  text-decoration: underline;
-}
-.navPress {
+.navbar .navbuttom .navShop {
     width: 60px;
     height: 34px;
     font-family: FuturaBT;
@@ -170,7 +83,29 @@
     text-decoration: none;
     float: right;
     margin-right: 7%;
-    margin-top: 0.5%;
+    margin-top: 20px;
+}
+
+.navbar .navbuttom .navShop:hover {
+  text-decoration: underline;
+}
+
+.navbar .navbuttom .navPress {
+    width: 60px;
+    height: 34px;
+    font-family: FuturaBT;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+    margin-right: 7vw;
+    margin-top: 20px
 }
 
 .navPress:hover {
@@ -178,20 +113,28 @@
  }
 
 
-.mainlogo {
+ .navbar .navbuttom  .mainlogo {
   margin-bottom: 80px;
-  width: 20%;
   display: block;
   margin-left: 42%;
-  margin-right: 42%;
   margin-top: -20px;
+  max-width: 238px;
+  max-height: 40px;
+  height: auto;
+  width: auto;
 }
 
-@media (max-width: 815px) {
-  .Nav {
-      display: None;
+@media (max-width: 850px) {
+  .navbar .navbutton .navLeft {
+    display: None;
   }
-  .navbutton {
+  .navbar .navbutton .navLeft {
+    display: None;
+  }
+  .navbar .navbutton .navShop {
+    display: None;
+  }
+  .navbar .navbutton .navPress {
     display: None;
   }
 }

@@ -10,7 +10,7 @@
   z-index: 1;
   padding-left: 50vw;
   margin-left: -20vw;
-  margin-bottom: -24px;
+  margin-bottom: -1.8vw;
 }
 
 .ourmissioncontainer {
@@ -19,8 +19,7 @@
   background-image: linear-gradient(to bottom, #e8e8e8, #ffffff);
   text-align: center;
   font-family: FuturaBT;
-  font-size: 16px;
-  color: #858585;
+  color: darkslategrey;
   padding-top: 5vh;
   padding-bottom: 8vh;
   align-content: center;
@@ -39,6 +38,7 @@
 .ourmissioncontainer .textContent {
   width: 100vw;
   height: 50px;
+  max-width: 750px;
   text-align: left;
   padding-left: 50vw;
   margin-left: -360px;
@@ -74,12 +74,14 @@
 }
 
 
+
 .tiptoeName1 {
   margin-top: -1%;
   margin-bottom: 5%;
   float: left;
   clear: none;
   width: 75vw;
+  font-size: 20px;
 }
 
 .nameLogo1 {
@@ -92,11 +94,10 @@
 
 .yourName1 {
   display: block;
-  padding-left: 38vw;
-  font-size: 28px;
+  padding-left: 20vw;
+  font-size: 100px;
   color: gray;
   margin-top: -4%;
-
 }
 
 .line1 {
@@ -111,12 +112,11 @@
 }
 
 .video {
-  width: 100vw;
-  height: 25vh;
+  width: 50vw;
   min-height: 480px;
   padding-left: 50vw;
   margin-left: -360px;
-  margin-top: -5vh;
+  margin-top: -100px;
 }
 
 .video iframe{
@@ -149,4 +149,79 @@
 
 .ourmissioncontainer3 h2{
   font-size: 18px;
+  color: darkslategrey;
+}
+
+
+
+@media (max-width: 850px){
+  .mainImage2 {
+    margin-bottom: -2.2vw;
+  }
+  .ourmissioncontainer {
+    height: 20vw;
+    min-height: 120px;
+    
+  }
+  .tiptoeName1{
+    font-size: 16px;
+  }
+
+  .video {
+    margin-left: -30vw;
+    min-height: 200px;
+    margin-top: -120px;
+  }
+  .video iframe {
+    width: 60vw;
+    height: 40vw;
+  }
+  
+  .ourmissioncontainer h2{
+    font-size: 16px;
+  }
+  .ourmissioncontainer p{
+    font-size: 14px;
+  }
+  .ourmissioncontainer .textContent {
+    width: 65vw;
+    padding-left:50vw;
+    margin-left: -30vw;
+  }
+
+  .ourmissioncontainer3 {
+    height: 20vw;
+    min-height: 120px;
+    font-size: 14px;
+    margin-bottom: 24vh;
+  }
+  
+  .ourmissioncontainer3 .textContent3 {
+    width: 65vw;
+    padding-left:50vw;
+    margin-left: -30vw;
+    padding-bottom: 0px;
+  }
+  
+  .ourmissioncontainer3 h2{
+    font-size: 15px;
+    color: darkslategrey;
+  }
+
+}
+
+@media (max-width: 450px){
+  .mainImage2 {
+    margin-bottom: -2.6vw;
+  }
+  .ourmissioncontainer p{
+    font-size: 11px;
+  }
+  .ourmissioncontainer3 .textContent3{
+    font-size: 11px;
+  }
+
+  .ourmissioncontainer3 .h2{
+    font-size: 12px;
+  }
 }

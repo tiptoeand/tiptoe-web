@@ -18,7 +18,6 @@ class PressImage extends Component {
   }
 
   render() {
-    const { name } = this.state;
     return (
       <div className="App">
         <div class="hvrbox">

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
+import NavbarDesktop from '../navbar/NavbarDesktop';
+import NavbarMobile from '../navbar/NavbarMobile';
 import facebook from '../image/fb-large.svg';
 import insta from '../image/insta-large.svg';
 import partner from '../image/partner-large.svg';
 import email from '../image/email-large.svg';
 import Footer from '../footer/footer';
+import Navbar from '../navbar/Navbar';
 
 import './Contact.css';
 
@@ -41,10 +43,10 @@ class Contact extends Component {
   }
 
   render() {
-    const { name } = this.state;
     return (
       <div className="App">
         <NavbarDesktop />
+        <NavbarMobile />
 
         <div class="contactcontainer">
           <h2>RECRUITMENT</h2>
