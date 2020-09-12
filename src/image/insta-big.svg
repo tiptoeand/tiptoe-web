@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="28.324" height="27.339" viewBox="0 0 28.3235989 27.3387717">
-    <g fill="none" fill-rule="evenodd" stroke="#858585">
-        <rect width="25.5" height="25.5" x="1.25" y="1.25" stroke-width="2.5" rx="8"/>
-        <rect width="11.5" height="11.5" x="8.25" y="8.25" stroke-width="2.5" rx="5.75"/>
-        <circle cx="20.5" cy="6.5" r="1.5" fill="#858585" stroke-width="1.5"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="28.324" height="27.339"><g fill="none" fill-rule="evenodd" stroke="#858585"><rect width="25.5" height="25.5" x="1.25" y="1.25" stroke-width="2.5" rx="8"/><rect width="11.5" height="11.5" x="8.25" y="8.25" stroke-width="2.5" rx="5.75"/><circle cx="20.5" cy="6.5" r="1.5" fill="#858585" stroke-width="1.5"/></g></svg>

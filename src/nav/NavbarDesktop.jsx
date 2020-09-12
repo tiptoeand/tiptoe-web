@@ -1,5 +1,5 @@
 import React from "react";
-import tiptoe from "../image/tiptoe.jpg";
+import tiptoe from "@/image/tiptoe.jpg";
 
 function NavbarDesktop() {
   return (

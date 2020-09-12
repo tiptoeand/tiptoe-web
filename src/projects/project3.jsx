@@ -1,13 +1,12 @@
 import React from "react";
-import proj3_2 from "../image/proj3_2.jpg";
-import proj3_3 from "../image/proj3_3.jpg";
-import proj3_4 from "../image/proj3_4.jpg";
-import proj3_6 from "../image/proj3_6.jpg";
-import proj3_7 from "../image/proj3_7.jpg";
-import proj3_8 from "../image/proj3_8.jpg";
-import proj3_9 from "../image/proj3_9.jpg";
-import "./project3.css";
 import Gallery from "react-photo-gallery";
+import proj3_7 from "@/image/proj3_7.jpg";
+import proj3_8 from "@/image/proj3_8.jpg";
+import proj3_6 from "@/image/proj3_6.jpg";
+import proj3_2 from "@/image/proj3_2.jpg";
+import proj3_9 from "@/image/proj3_9.jpg";
+import proj3_4 from "@/image/proj3_4.jpg";
+import proj3_3 from "@/image/proj3_3.jpg";
 
 const photos1 = [
   {
@@ -28,6 +27,7 @@ const photos1 = [
     height: 3,
   },
 ];
+
 const photos2 = [
   {
     src: proj3_2,
@@ -53,7 +53,7 @@ const photos2 = [
 
 function Project3() {
   return (
-    <div class="project2page">
+    <div class="projectsection">
       <div class="inclusiontext">
         <h2>PROJECT_03: EVERY PIECE FITS TOGETHER</h2>
       </div>

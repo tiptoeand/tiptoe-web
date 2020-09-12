@@ -1,11 +1,10 @@
 import React from "react";
-import proj2_1 from "../image/proj2_1.jpg";
-import proj2_2 from "../image/proj2_2.jpg";
-import proj2_3 from "../image/proj2_3.jpg";
-import proj2_4 from "../image/proj2_4.jpg";
-import proj2_5 from "../image/proj2_5.jpg";
-import "./project2.css";
 import Gallery from "react-photo-gallery";
+import proj2_1 from "@/image/proj2_1.jpg";
+import proj2_2 from "@/image/proj2_2.jpg";
+import proj2_3 from "@/image/proj2_3.jpg";
+import proj2_4 from "@/image/proj2_4.jpg";
+import proj2_5 from "@/image/proj2_5.jpg";
 
 const photos1 = [
   {
@@ -25,6 +24,7 @@ const photos1 = [
     height: 4,
   },
 ];
+
 const photos2 = [
   {
     src: proj2_5,
@@ -40,7 +40,7 @@ const photos2 = [
 
 function Project2() {
   return (
-    <div class="project2page">
+    <div class="projectsection">
       <div class="inclusiontext">
         <h2>PROJECT_02: NO SILENCE NO VIOLENCE</h2>
       </div>

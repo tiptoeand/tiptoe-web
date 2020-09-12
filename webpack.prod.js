@@ -1,5 +1,5 @@
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
-var HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const Dotenv = require("dotenv-webpack");
 const svgToMiniDataURI = require("mini-svg-data-uri");
@@ -73,10 +73,10 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
   },
-  externals: {
-    // global app config object
-    config: JSON.stringify({
-      apiUrl: "http://localhost:8000/api",
-    }),
-  },
+  // externals: {
+  //   // global app config object
+  //   config: JSON.stringify({
+  //     apiUrl: "http://localhost:8000/api",
+  //   }),
+  // },
 };

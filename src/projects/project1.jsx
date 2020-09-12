@@ -1,13 +1,12 @@
 import React from "react";
-import proj1_1 from "../image/proj1_1.jpg";
-import proj1_2 from "../image/proj1_2.jpg";
-import proj1_3 from "../image/proj1_3.jpg";
-import proj1_4 from "../image/proj1_4.jpg";
-import proj1_5 from "../image/proj1_5.jpg";
-import proj1_6 from "../image/proj1_6.jpg";
-import proj1_7 from "../image/proj1_7.jpg";
-import "./project1.css";
 import Gallery from "react-photo-gallery";
+import proj1_1 from "@/image/proj1_1.jpg";
+import proj1_2 from "@/image/proj1_2.jpg";
+import proj1_3 from "@/image/proj1_3.jpg";
+import proj1_4 from "@/image/proj1_4.jpg";
+import proj1_5 from "@/image/proj1_5.jpg";
+import proj1_6 from "@/image/proj1_6.jpg";
+import proj1_7 from "@/image/proj1_7.jpg";
 
 const photos1 = [
   {
@@ -26,6 +25,7 @@ const photos1 = [
     height: 3,
   },
 ];
+
 const photos2 = [
   {
     src: proj1_4,
@@ -51,7 +51,7 @@ const photos2 = [
 
 function Project1() {
   return (
-    <div class="project1page">
+    <div class="projectsection">
       <div class="inclusiontext">
         <h2>PROJECT_01: UNSPOKEN VIOLENCE</h2>
       </div>

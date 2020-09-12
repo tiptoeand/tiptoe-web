@@ -1,8 +1,7 @@
 import React from "react";
-import tiptoe from "@/image/tiptoe.jpg";
 import peering from "@/image/peeringdown.jpg";
-import Typing from "react-typing-animation";
-import "./ourstory.css";
+// import tiptoe from "@/image/tiptoe.jpg";
+// import Typing from "react-typing-animation";
 
 function About() {
   return (

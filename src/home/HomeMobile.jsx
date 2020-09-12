@@ -1,39 +1,38 @@
 import React from "react";
-import image1 from "../image/home_1.jpg";
-import image2 from "../image/threesteps1.jpg";
-import image3 from "../image/home_2.jpg";
-import image4 from "../image/threesteps2.jpg";
-import image5 from "../image/home_3.jpg";
-import image6 from "../image/threesteps3.jpg";
-import "./HomeMobile.css";
+import home1 from "@/image/home_1.jpg";
+import threesteps1 from "@/image/threesteps1.jpg";
+import threesteps2 from "@/image/threesteps2.jpg";
+import home2 from "@/image/home_2.jpg";
+import home3 from "@/image/home_3.jpg";
+import threesteps3 from "@/image/threesteps3.jpg";
 
 function HomeMobile() {
   return (
     <div class="homemobilecontent">
       <div class="homemobiles">
         <div class="homemobilescontent">
-          <img src={image1} alt="home image1"></img>
+          <img src={home1} alt="home image1"></img>
         </div>
         <div class="homemobilescontent2">
-          <img src={image2} alt="home image2"></img>
+          <img src={threesteps1} alt="home image2"></img>
         </div>
       </div>
 
       <div class="homemobiles">
         <div class="homemobilescontent2">
-          <img src={image4} alt="home image4"></img>
+          <img src={threesteps2} alt="home image4"></img>
         </div>
         <div class="homemobilescontent">
-          <img src={image3} alt="home image3"></img>
+          <img src={home2} alt="home image3"></img>
         </div>
       </div>
 
       <div class="homemobiles">
         <div class="homemobilescontent">
-          <img src={image5} alt="home image5"></img>
+          <img src={home3} alt="home image5"></img>
         </div>
         <div class="homemobilescontent2">
-          <img src={image6} alt="home image6"></img>
+          <img src={threesteps3} alt="home image6"></img>
         </div>
       </div>
     </div>

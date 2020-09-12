@@ -1,7 +1,6 @@
 import React from "react";
 import PressImage from "./PressImage";
 import PressMobile from "./PressMobile";
-import "./Press.css";
 
 function Press() {
   return (

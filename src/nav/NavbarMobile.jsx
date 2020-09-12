@@ -1,12 +1,11 @@
 import React from "react";
-import "./NavbarMobile.css";
-import tiptoe from "../image/tiptoe.jpg";
+import tiptoe from "@/image/tiptoe.jpg";
 
 function NavbarMobile() {
   return (
     <div className="mobilenavbar">
       <header class="header">
-        <a href="/">
+        <a href="/" class="header_a">
           <img src={tiptoe} class="mainlogo2" alt="Tiptoe&" />
         </a>
 
@@ -16,16 +15,24 @@ function NavbarMobile() {
         </label>
         <ul class="menu">
           <li>
-            <a href="/about">ABOUT</a>
+            <a href="/about" class="header_a">
+              ABOUT
+            </a>
           </li>
           <li>
-            <a href="/projects">PROJECTS</a>
+            <a href="/projects" class="header_a">
+              PROJECTS
+            </a>
           </li>
           <li>
-            <a href="/press">PRESS</a>
+            <a href="/press" class="header_a">
+              PRESS
+            </a>
           </li>
           <li>
-            <a href="/contact">CONTACT</a>
+            <a href="/contact" class="header_a">
+              CONTACT
+            </a>
           </li>
         </ul>
       </header>

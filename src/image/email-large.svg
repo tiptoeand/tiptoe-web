@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="185px" height="150px" viewBox="0 0 185 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
-    <title>email large</title>
-    <desc>Created with Sketch.</desc>
-    <g id="email-large" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#858585" stroke-width="13.716783" x="6.85839152" y="6.85839152" width="170.824831" height="136.283217"></rect>
-        <polyline id="Path" stroke="#858585" stroke-width="13.716783" points="9.71271653 46.875 92.4619745 93.75 174.828898 46.875"></polyline>
-        <polyline id="Path" stroke="#858585" stroke-width="13.716783" transform="translate(92.270807, 103.125000) scale(1, -1) translate(-92.270807, -103.125000) " points="9.71271653 84.375 75.0501185 121.875 92.270807 113.33817 110.057376 121.875 174.828898 84.375"></polyline>
-    </g>
-</svg>
+<svg width="185" height="150" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#858585" stroke-width="13.717"><path d="M6.858 6.858h170.825v136.283H6.858z"/><path d="M9.713 46.875L92.462 93.75l82.367-46.875"/><path d="M9.713 121.875l65.337-37.5 17.22 8.537 17.787-8.537 64.772 37.5"/></g></svg>
