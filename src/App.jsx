@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Route, Switch, Redirect, useLocation } from "react-router-dom";
+import React from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 import { Navbar } from "@/nav";
 import { Footer } from "@/footer";
@@ -10,13 +10,10 @@ import { Projects } from "@/projects";
 import { Press } from "@/press";
 
 function App() {
-  const { pathname } = useLocation();
-
   return (
     <div>
       <Navbar />
       <Switch>
-        <Redirect from="/:url*(/+)" to={pathname.slice(0, -1)} />
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />

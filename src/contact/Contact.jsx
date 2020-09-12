@@ -10,7 +10,7 @@ function Contact() {
       <div className="contactcontainer">
         <h2>RECRUITMENT</h2>
         <content>
-          <p>Applications for spring 2019 is now closed.</p>
+          <p>Applications for fall 2020 is now open.</p>
         </content>
 
         <h2>CONTACT US</h2>
