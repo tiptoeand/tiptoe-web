@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'FuturaBT';
+  src: url("../font/FuturaBT.ttf");
+}
+
+.imageText {
+    margin-bottom: 10%;
+}
+
+.mainImage {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: -1;
+}
+
+.tiptoeName1 {
+  margin-top: -3%;
+  margin-bottom: 5%;
+  float: left;
+  clear: none;
+}
+
+.nameLogo1 {
+    width: 15%;
+    display: block;
+    padding-left: 10%;
+
+}
+
+.yourName2 {
+    display: block;
+    color: gray;
+    margin-top: -4%;
+    margin-left: 0%;
+    padding-left: 50vw;
+}
+
+.line1 {
+    display: block;
+    height: 1px;
+    width: 20%;
+    min-width: 150px;
+    border: 0;
+    border-top: 2px solid #000000;
+    padding: 0;
+    position: absolute;
+    margin-left: 46%;
+}
+
+
+.p3launch {
+  height: 45px;
+  font-family: FuturaBT;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #838383;
+  margin-left: 7%;
+  margin-bottom: 0.1%;
+}
+
+.timelineImg {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+.image3 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+.stepsImg {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+.footerContainer {
+height: 125px;
+}
+
+.join {
+  background-color: #dd8a8a;
+  height: 230px;
+}
+
+.joinEmail {
+  padding-top: 2.5%;
+  display: block;
+  margin: auto;
+}
+
+.joinEmailText {
+  font-family: FuturaBT;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 22%;
+}
+
+.emailRect {
+  border: solid 2px #ffffff;
+  width: 300px;
+  height: 35px;
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 39%;
+}
+
+.joinButton {
+  border: none;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 0 #858585;
+  font-family: FuturaBT;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #dd8a8a;
+  position: absolute;
+  margin-top: 1.2%;
+  margin-left: 65%;
+}
+
+.joinEmailText2 {
+  font-family: FuturaBT;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.joinEmailText3 {
+  font-family: FuturaBT;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: auto;
+  text-align: center;
+  margin-top: 1%;
+}
+
+@media (max-width: 850px){
+  .yourName2{
+    font-size: 14px;
+  }
+  .homeimage{
+    display: none;
+
+  }
+}
+
+
+

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "FuturaBT";
+  src: url("../font/FuturaBT.ttf");
+}
+
+.homemobiles {
+  width: 100vw;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-content: center;
+  text-align: center;
+  font-family: FuturaBT;
+  margin-left: 20px;
+}
+
+.homemobiles .homemobilescontent {
+  width: 45vw;
+  margin-left: 0px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.homemobiles .homemobilescontent img {
+  width: 200px;
+  height: auto;
+}
+
+.homemobiles .homemobilescontent2 {
+  width: 45vw;
+  margin-left: -5px;
+  padding-bottom: 50px;
+  padding-top: 125px;
+}
+.homemobiles .homemobilescontent2 img {
+  width: 40vw;
+  height: auto;
+}
+
+.homemobilecontent {
+  margin-top: 120px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 851px) {
+  .homemobilecontent {
+    display: none;
+  }
+}

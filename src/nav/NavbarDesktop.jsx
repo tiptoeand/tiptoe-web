@@ -3,7 +3,7 @@ import tiptoe from "../image/tiptoe.jpg";
 
 function NavbarDesktop() {
   return (
-    <div className="container-fluid navbardesktop">
+    <div className="container-fluid navbardesktop mb-4">
       <div className="row justify-content-center text-center">
         <div className="col-2">
           <a href="/about" className="navbardesktop_button">
