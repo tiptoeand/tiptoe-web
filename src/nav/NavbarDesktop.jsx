@@ -15,7 +15,7 @@ function NavbarDesktop() {
             PROJECTS
           </a>
         </div>
-        <div className="col-4">
+        <div className="col-2">
           <a href="/">
             <img src={tiptoe} class="navbardesktop_logo" alt="TIPTOE&" />
           </a>

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'FuturaBT';
+  src: url("../font/FuturaBT.ttf");
+}
+
+.project2page .inclusiontext {
+  width: 60vw;
+  padding-left: 50vw;
+  margin-left: -30vw;
+  text-align: left;
+  font-family: FuturaBT;
+}
+
+.project2page .inclusiontext p {
+  padding-bottom: 25px;
+}
+.project2page .photogallery {
+  width: 70vw;
+  align-content: center;
+  padding-bottom: 80px;
+  padding-left: 50vw;
+  margin-left: -35vw;
+}
+
+
+@media (max-width: 850px){
+  .project2page .inclusiontext h2{
+    font-size: 16px;
+  }
+  .project2page .inclusiontext p{
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 450px){
+  .project2page .inclusiontext h2{
+    font-size: 14px;
+  }
+  .project2page .inclusiontext p{
+    font-size: 12px;
+  }
+}
+
