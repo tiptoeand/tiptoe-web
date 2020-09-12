@@ -7,6 +7,7 @@ import { Home } from "@/home";
 import { Contact } from "@/contact";
 import { About } from "@/about";
 import { Projects } from "@/projects";
+import { Press } from "@/press";
 
 function App() {
   const { pathname } = useLocation();
@@ -19,7 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
-        <Route path="/press" component={Home} />
+        <Route path="/press" component={Press} />
         <Route path="/contact" component={Contact} />
         <Redirect from="*" to="/" />
       </Switch>
