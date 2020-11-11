@@ -8,6 +8,7 @@ import Project3 from './project3';
 import ProjectPageImage from '../image/projectpage.jpg';
 import Navbar from '../navbar/Navbar';
 import './projects.css';
+import '../ourstory/cat.css';
 
 class Projects extends Component {
   constructor() {
@@ -46,14 +47,17 @@ class Projects extends Component {
       <div className="projectpage">
         <NavbarDesktop />
         <NavbarMobile />
-        < div class="imageText">
-          <img src={ProjectPageImage} class="mainImage" alt="" />
-        </div>
+        <img src={ProjectPageImage} class="titleImage" alt="" />
+        <div class="intext">
+          <p class="titleText">Our Projects</p>
+        </div >
+        <br />
         <Project3 />
         <Project2 />
         <Project1 />
 
         <Footer />
+
       </div >
 
     );

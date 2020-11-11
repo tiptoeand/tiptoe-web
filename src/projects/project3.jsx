@@ -11,6 +11,7 @@ import proj3_8 from '../image/proj3_8.jpg';
 import proj3_9 from '../image/proj3_9.jpg';
 import './project3.css';
 import Gallery from 'react-photo-gallery';
+
 const photos1 = [
   {
     src: proj3_7,
