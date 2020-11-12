@@ -51,7 +51,7 @@ class Projects extends Component {
         <div class="intext">
           <p class="titleText">Our Projects</p>
         </div >
-        <br />
+
         <Project3 />
         <Project2 />
         <Project1 />

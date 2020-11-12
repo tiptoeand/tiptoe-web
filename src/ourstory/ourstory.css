@@ -3,56 +3,6 @@
   src: url("../font/FuturaBT.ttf");
 }
 
-.mainImage2 {
-  width: 40vw;
-  position: relative;
-  text-align: center;
-  z-index: 1;
-  padding-left: 50vw;
-  margin-left: -20vw;
-  margin-bottom: -1.8vw;
-}
-
-.ourmissioncontainer {
-  width: 100vw;
-  height: 16vh;
-  background-image: linear-gradient(to bottom, #e8e8e8, #ffffff);
-  text-align: center;
-  font-family: FuturaBT;
-  color: darkslategrey;
-  padding-top: 5vh;
-  padding-bottom: 8vh;
-  align-content: center;
-  margin-bottom: 10vh;
-}
-
-
-.ourmissioncontainer h1{
-  font-size: 22px;
-}
-
-.ourmissioncontainer h2{
-  font-size: 18px;
-}
-
-.ourmissioncontainer .textContent {
-  width: 100vw;
-  height: 50px;
-  max-width: 750px;
-  text-align: left;
-  padding-left: 50vw;
-  margin-left: -360px;
-  padding-bottom: 80px;
-}
-
-.ourmissioncontainer .textContent2 {
-  width: 600px;
-  height: 50px;
-  text-align: left;
-  padding-left: 50vw;
-  margin-left: -300px;
-  padding-bottom: 0px;
-}
 
 .ourmissioncontainer .logoImage {
   float: left;

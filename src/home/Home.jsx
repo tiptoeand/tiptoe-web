@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import tiptoe from '../image/tiptoe.png';
-import MainImage from '../image/MainImage.jpeg';
+import MainImage from '../image/MainImageResize.jpeg';
 import Timeline from '../image/Timeline.png';
 import threeimages from '../image/threeimages.png';
 import threesteps from '../image/threesteps.png';
@@ -11,6 +11,7 @@ import Navbar from '../navbar/Navbar';
 import Typing from 'react-typing-animation';
 import HomeMobile from './HomeMobile';
 import './Home.css';
+import '../ourstory/cat.css';
 
 class Home extends Component {
   constructor() {
@@ -50,10 +51,8 @@ class Home extends Component {
         <NavbarDesktop />
         <NavbarMobile />
         < div class="imageText">
-          <img src={MainImage} class="mainImage" alt="" />
+          <img src={MainImage} class="titleImage" alt="" />
         </div>
-
-
         <div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />
           <Typing loop={true} speed={110}>

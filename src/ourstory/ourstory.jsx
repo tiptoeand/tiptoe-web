@@ -3,11 +3,8 @@ import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/footer';
-import tiptoe from '../image/tiptoe.png';
-import peering from '../image/peeringdown.png';
 import Typing from 'react-typing-animation';
-import MainImage from '../image/MainImage.jpeg';
-import KasaCap from '../image/kasa_cap.jpg'
+import TeamImage from '../image/teamresize.jpg'
 import './ourstory.css';
 import './cat.css';
 
@@ -45,7 +42,7 @@ class Ourstory extends Component {
         <NavbarDesktop />
         <NavbarMobile />
 
-        <img src={KasaCap} class="titleImage" alt="" />
+        <img src={TeamImage} class="titleImage" alt="" />
 
 
         <div class="intext">
