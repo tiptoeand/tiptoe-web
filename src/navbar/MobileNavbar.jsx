@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './MobileNavbar.css';
-import tiptoe from '../image/tiptoe.png';
+// import tiptoe from '../image/tiptoe.png';
 
 export default class MobileNavbar extends Component {
   constructor() {

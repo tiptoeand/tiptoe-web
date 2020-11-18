@@ -68,11 +68,11 @@ export default class NavbarDesktop extends Component {
                   <button class="button" onClick={() => window.location.href = '/contact'}> JOIN US </button>
                 </div>
                 <div class="imagebox1">
-                  <img src={gray} class="navbarimage1" />
+                  <img src={gray} class="navbarimage1" alt="navbar" />
                   <div class="imageboxtext">OUR STORY</div>
                 </div>
                 <div class="imagebox2">
-                  <img src={gray} class="navbarimage2" />
+                  <img src={gray} class="navbarimage2" alt="navbar2" />
                   <div class="imageboxtext">OUR STORY</div>
                 </div>
               </div>

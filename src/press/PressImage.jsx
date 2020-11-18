@@ -9,9 +9,9 @@ import './Press.css';
 
 
 class PressImage extends Component {
-  constructor() {
-    super();
-  }
+//   constructor() {
+//     super();
+//   }
 
   state = {
     name: 'PRESSIMAGE',

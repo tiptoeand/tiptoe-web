@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import proj3_0 from '../image/proj3_0.jpg';
-import proj3_1 from '../image/proj3_1.jpg';
+// import proj3_0 from '../image/proj3_0.jpg';
+// import proj3_1 from '../image/proj3_1.jpg';
 import proj3_2 from '../image/proj3_2.jpg';
 import proj3_3 from '../image/proj3_3.jpg';
 import proj3_4 from '../image/proj3_4.jpg';
-import proj3_5 from '../image/proj3_5.jpg';
+// import proj3_5 from '../image/proj3_5.jpg';
 import proj3_6 from '../image/proj3_6.jpg';
 import proj3_7 from '../image/proj3_7.jpg';
 import proj3_8 from '../image/proj3_8.jpg';

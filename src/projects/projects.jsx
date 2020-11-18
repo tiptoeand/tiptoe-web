@@ -6,7 +6,7 @@ import Project1 from './project1';
 import Project2 from './project2';
 import Project3 from './project3';
 import ProjectPageImage from '../image/projectpage.jpg';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 import './projects.css';
 import '../ourstory/cat.css';
 

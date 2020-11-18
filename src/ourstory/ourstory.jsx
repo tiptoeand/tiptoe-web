@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 import Footer from '../footer/footer';
-import Typing from 'react-typing-animation';
+// import Typing from 'react-typing-animation';
 import TeamImage from '../image/teamresize.jpg'
 import './ourstory.css';
 import './cat.css';
@@ -53,7 +53,7 @@ class Ourstory extends Component {
 
         </div>
         <div class="video">
-          <iframe src="https://drive.google.com/file/d/1ws-NjD_9SmbFqMiiPgYkoRFPrr1blEZk/preview" width="720" height="480" ></iframe>
+            <iframe src="https://drive.google.com/file/d/1kL-MWddDOhm04RxBnxE-5LNozGKi0mnw/preview" width="720" height="480" title="TT Our Story Video"></iframe>
         </div>
 
         <div class="intext">

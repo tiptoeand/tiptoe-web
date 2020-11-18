@@ -3,7 +3,7 @@ import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
 import Footer from '../footer/footer';
 import PressImage from './PressImage';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 import PressMobile from './PressMobile';
 import './Press.css';
 

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import tiptoe from '../image/tiptoe.png';
-import MainImage from '../image/MainImageResize.jpeg';
+// import MainImage from '../image/MainImageResize.jpeg';
 import Timeline from '../image/Timeline.png';
 import threeimages from '../image/threeimages.png';
 import threesteps from '../image/threesteps.png';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 import Typing from 'react-typing-animation';
 import HomeMobile from './HomeMobile';
 import './Home.css';
@@ -51,7 +51,7 @@ class Home extends Component {
         <NavbarDesktop />
         <NavbarMobile />
         < div class="imageText">
-          <img src={MainImage} class="titleImage" alt="" />
+          <img src="https://drive.google.com/uc?export=view&id=1rKO98Ow5ZhsXuQ8XTRRAiZkrNKLGxRK9" class="titleImage" alt="tiptoe" />
         </div>
         <div class="tiptoeName1">
           <img src={tiptoe} class="nameLogo1" alt="" />

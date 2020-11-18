@@ -6,7 +6,7 @@ import insta from '../image/insta-large.svg';
 import partner from '../image/partner-large.svg';
 import email from '../image/email-large.svg';
 import Footer from '../footer/footer';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 
 import './Contact.css';
 
@@ -54,10 +54,10 @@ class Contact extends Component {
 
 
           <h2>CONTACT US</h2>
-          <p><img class="logoImage" src={partner} />www.tiptoeand.com</p>
-          <p><img class="logoImage2" src={facebook} />https://www.facebook.com/tiptoeand/</p>
-          <p><img class="logoImage" src={insta} />https://www.instagram.com/tiptoeand_/</p>
-          <p><img class="logoImage" src={email} />tiptoeand.cornell@gmail.com</p>
+          <p><img class="logoImage" src={partner} alt="web" />www.tiptoeand.com</p>
+          <p><img class="logoImage2" src={facebook} alt="fb" />https://www.facebook.com/tiptoeand/</p>
+          <p><img class="logoImage" src={insta} alt="insta" />https://www.instagram.com/tiptoeand_/</p>
+          <p><img class="logoImage" src={email} alt="email"/>tiptoeand.cornell@gmail.com</p>
         </div>
 
         <Footer />

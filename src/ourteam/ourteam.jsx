@@ -7,7 +7,7 @@ import NavbarMobile from '../navbar/NavbarMobile';
 import TeamContent from './teamcontent';
 import Typing from 'react-typing-animation';
 import './ourteam.css';
-import Navbar from '../navbar/Navbar';
+// import Navbar from '../navbar/Navbar';
 
 class Ourteam extends Component {
   constructor() {

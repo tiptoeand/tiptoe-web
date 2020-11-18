@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import tiptoe from '../image/tiptoe.png';
+// import tiptoe from '../image/tiptoe.png';
 import MainImage from '../image/MainImage.jpeg';
 import Footer from '../footer/footer';
 import NavbarDesktop from '../navbar/NavbarDesktop.jsx';
 import NavbarMobile from '../navbar/NavbarMobile';
 import Products from './Products';
-import Typing from 'react-typing-animation';
+// import Typing from 'react-typing-animation';
 import './Store.css';
 
 class Store extends Component {

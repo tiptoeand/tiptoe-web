@@ -21,23 +21,23 @@ class TeamContent extends Component {
         <div class="teams">
           <div class="teamsection"><h2>LEADERS</h2></div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member1" />
             <div class="desc1">HAYAN LEE<br />President</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member2" />
             <div class="desc1">MINJAE KIM<br />Design Director</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member3" />
             <div class="desc1">HAYAN LEE<br />Marketing Director</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member4" />
             <div class="desc1">MINJAE KIM<br />Operations Director</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member5" />
             <div class="desc1">MINJAE KIM<br />Business Dev Director</div>
           </div>
         </div>
@@ -48,23 +48,23 @@ class TeamContent extends Component {
             to emulate social issues within the designs themselves, brainstorming
             and design. Develop and manage the TIPTOE& website.</p></div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member6" />
             <div class="desc1">YUNA SHIN<br />Website Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member7" />
             <div class="desc1">MICHELLE WANG<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member8" />
             <div class="desc1">SARAH MIRAE KIM<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member9" />
             <div class="desc1">ALLI PARK<br />Fashion Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member10" />
             <div class="desc1">SERAH KIM<br />Fashion Designer</div>
           </div>
         </div>
@@ -75,23 +75,23 @@ class TeamContent extends Component {
             to emulate social issues within the designs themselves, brainstorming
             and design. Develop and manage the TIPTOE& website.</p></div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">YUNA SHIN<br />Website Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">MICHELLE WANG<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">SARAH MIRAE KIM<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">ALLI PARK<br />Fashion Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">SERAH KIM<br />Fashion Designer</div>
           </div>
         </div>
@@ -102,23 +102,23 @@ class TeamContent extends Component {
             to emulate social issues within the designs themselves, brainstorming
             and design. Develop and manage the TIPTOE& website.</p></div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">YUNA SHIN<br />Website Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">MICHELLE WANG<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">SARAH MIRAE KIM<br />Website Designer</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">ALLI PARK<br />Fashion Design Leader</div>
           </div>
           <div class="gallery">
-            <img src={member_photo} alt="member photo" />
+            <img src={member_photo} alt="member" />
             <div class="desc1">SERAH KIM<br />Fashion Designer</div>
           </div>
         </div>
