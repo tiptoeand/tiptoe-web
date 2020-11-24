@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'FuturaBT';
+  font-family: "FuturaBT";
   src: url("../font/FuturaBT.ttf");
 }
 
@@ -34,7 +34,7 @@
   width: 68%;
 }
 
-.pressmobilesdesc2{
+.pressmobilesdesc2 {
   font-size: 18px;
   font-family: FuturaBT;
   text-align: center;
@@ -55,10 +55,7 @@
   height: auto;
 }
 
-
-
-
-.pressmobilecontent{
+.pressmobilecontent {
   margin-top: -50px;
   padding-bottom: 40px;
 }
@@ -70,7 +67,7 @@
   padding-bottom: 10px;
 }
 
-@media (min-width: 851px){
+@media (min-width: 851px) {
   .pressmobilecontent {
     display: none;
   }

@@ -4,27 +4,26 @@ import "./NavbarDesktop.css";
 
 function NavbarDesktop() {
   return (
-    <div className="NavDesktop">
-      <div class="navdesktop">
-        <div class="navbutton">
-          <a href="/ourstory" class="dropdown_b">
-            ABOUT
-          </a>
-          <a href="/projects" class="navProjects">
-            PROJECTS
-          </a>
-          <a href="/contact" class="navShop">
-            CONTACT
-          </a>
-          {/*<a href="/shop" class="navShop">SHOP</a>*/}
-          <a href="/press" class="navPress">
-            PRESS
-          </a>
-          <a href="/">
-            <img src={tiptoe} class="mainlogo" alt="TIPTOE& Logo" />
-          </a>
-        </div>
-      </div>
+    <div class="navbardesktop pt-1">
+      <nav class="desktopnavbar navbar navbar-light justify-content-between">
+        <div></div>
+        <a class="navbar-brand" href="/ourstory">
+          ABOUT
+        </a>
+        <a class="navbar-brand" href="/projects">
+          PROJECTS
+        </a>
+        <a class="navbar-brand" href="/">
+          <img src={tiptoe} class="desktoplogoimage" alt="TIPTOE& Logo" />
+        </a>
+        <a class="navbar-brand" href="/press">
+          PRESS
+        </a>
+        <a class="navbar-brand" href="/contact">
+          CONTACT
+        </a>
+        <div></div>
+      </nav>
     </div>
   );
 }
