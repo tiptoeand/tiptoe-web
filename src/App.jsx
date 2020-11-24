@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home } from "./home/Home";
 import { Ourstory } from "./ourstory/ourstory";
 import { Contact } from "./contact/Contact";
@@ -9,7 +9,7 @@ import { Store } from "./store/Store";
 import { Ourteam } from "./ourteam/ourteam";
 
 const AppRouter = () => (
-  <BrowserRouter>
+  <Router>
     <div>
       <Route path="/" exact component={Home} />
       <Route path="/ourstory/" component={Ourstory} />
@@ -19,7 +19,7 @@ const AppRouter = () => (
       <Route path="/shop/" component={Store} />
       <Route path="/ourteam/" component={Ourteam} />
     </div>
-  </BrowserRouter>
+  </Router>
 );
 
 export default AppRouter;
