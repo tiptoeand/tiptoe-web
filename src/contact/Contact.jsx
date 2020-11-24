@@ -16,7 +16,7 @@ function Contact() {
       <div class="contactcontainer">
         <h2>RECRUITMENT</h2>
         <content>
-          <p>Applications for fall 2019 is now closed.</p>
+          <p>Applications for fall 2020 is now closed.</p>
         </content>
 
         <h2>CONTACT US</h2>
