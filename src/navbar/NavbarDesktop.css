@@ -124,9 +124,7 @@
 }
 
 .navAbout {
-  border: none;
-  background-color: white;
-  width: 93px;
+  width: 60px;
   height: 34px;
   font-family: FuturaBT;
   font-size: 18px;
@@ -225,6 +223,8 @@ text-decoration: underline;
   max-height: 40px;
   height: auto;
   width: auto;
+  
+
 }
 
 @media(max-width: 1199px){

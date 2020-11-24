@@ -44,7 +44,7 @@ export default class NavbarDesktop extends Component {
 
         <div class="navdesktop">
           <div class="navbutton">
-            <a href="/ourstory" class="dropdown_b">ABOUT</a>
+            <a href="/ourstory" class="navAbout">ABOUT</a>
             <a href="/projects" class="navProjects">PROJECTS</a>
             <a href="/contact" class="navShop">CONTACT</a>
             {/*<a href="/shop" class="navShop">SHOP</a>*/}
