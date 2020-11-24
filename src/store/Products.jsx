@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-import './Products.css';
-import firebase from '../Firebase';
+import React, { Component } from "react";
+import "./Products.css";
+import firebase from "../Firebase";
 
 class Products extends Component {
   constructor(props) {
     super(props);
-    this.ref = firebase.firestore().collection('products');
+    this.ref = firebase.firestore().collection("products");
     this.unsubscribe = null;
     this.state = {
-      products: []
+      products: [],
     };
   }
 
@@ -27,9 +26,9 @@ class Products extends Component {
       });
     });
     this.setState({
-      products
+      products,
     });
-  }
+  };
 
   componentDidMount() {
     this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate);
@@ -38,19 +37,24 @@ class Products extends Component {
   render() {
     return (
       <div class="productcontent">
-        <div class="inclusiontext"><h2>TIPTOE& Store</h2></div>
-
-        <div class="products">
-          <div class="productsection"><h2>PROJECT_02</h2></div>
-          {this.state.products.map(product =>
-            <div class="gallery">
-              <img src={product.image} alt="tiptoe& white cap" />
-              <div class="desc1">{product.name}<br />${product.price}</div>
-            </div>
-          )}
+        <div class="inclusiontext">
+          <h2>TIPTOE& Store</h2>
         </div>
 
-
+        <div class="products">
+          <div class="productsection">
+            <h2>PROJECT_02</h2>
+          </div>
+          {this.state.products.map((product) => (
+            <div class="gallery">
+              <img src={product.image} alt="tiptoe& white cap" />
+              <div class="desc1">
+                {product.name}
+                <br />${product.price}
+              </div>
+            </div>
+          ))}
+        </div>
 
         {/*<div class="container">
         <div class="panel panel-default">
@@ -89,6 +93,5 @@ class Products extends Component {
       </div>
     );
   }
-
 }
 export default Products;

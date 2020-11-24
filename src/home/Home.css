@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'FuturaBT';
+  font-family: "FuturaBT";
   src: url("../font/FuturaBT.ttf");
 }
 
 .imageText {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .mainImage {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    z-index: -1;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  z-index: -1;
 }
 
 .tiptoeName1 {
@@ -22,31 +22,30 @@
 }
 
 .nameLogo1 {
-    width: 15%;
-    display: block;
-    padding-left: 10%;
+  width: 15%;
+  display: block;
+  padding-left: 10%;
 }
 
 .yourName2 {
-    display: block;
-    color: gray;
-    margin-top: -4%;
-    margin-left: 0%;
-    padding-left: 50vw;
+  display: block;
+  color: gray;
+  margin-top: -4%;
+  margin-left: 0%;
+  padding-left: 50vw;
 }
 
 .line1 {
-    display: block;
-    height: 1px;
-    width: 20%;
-    min-width: 150px;
-    border: 0;
-    border-top: 2px solid #000000;
-    padding: 0;
-    position: absolute;
-    margin-left: 46%;
+  display: block;
+  height: 1px;
+  width: 20%;
+  min-width: 150px;
+  border: 0;
+  border-top: 2px solid #000000;
+  padding: 0;
+  position: absolute;
+  margin-left: 46%;
 }
-
 
 .p3launch {
   height: 45px;
@@ -87,7 +86,7 @@
 }
 
 .footerContainer {
-height: 125px;
+  height: 125px;
 }
 
 .join {
@@ -173,15 +172,56 @@ height: 125px;
   margin-top: 1%;
 }
 
-@media (max-width: 850px){
-  .yourName2{
+@media (max-width: 850px) {
+  .yourName2 {
     font-size: 14px;
   }
-  .homeimage{
+  .homeimage {
     display: none;
-
   }
 }
 
+.homemobiles {
+  width: 100vw;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-content: center;
+  text-align: center;
+  font-family: FuturaBT;
+  margin-left: 20px;
+}
 
+.homemobiles .homemobilescontent {
+  width: 45vw;
+  margin-left: 0px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.homemobiles .homemobilescontent img {
+  width: 200px;
+  height: auto;
+}
 
+.homemobiles .homemobilescontent2 {
+  width: 45vw;
+  margin-left: -5px;
+  padding-bottom: 50px;
+  padding-top: 125px;
+}
+.homemobiles .homemobilescontent2 img {
+  width: 40vw;
+  height: auto;
+}
+
+.homemobilecontent {
+  margin-top: 120px;
+  padding-bottom: 40px;
+}
+
+@media (min-width: 851px) {
+  .homemobilecontent {
+    display: none;
+  }
+}
