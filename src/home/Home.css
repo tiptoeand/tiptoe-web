@@ -24,7 +24,8 @@
 .nameLogo1 {
   width: 15%;
   display: block;
-  padding-left: 10%;
+  /* padding-left: 10%; */
+  margin-left: 10%;
 }
 
 .yourName2 {

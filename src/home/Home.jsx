@@ -57,7 +57,7 @@ function Home() {
         <img src={MainImage} class="titleImage" alt="tiptoe" />
       </div>
       <div class="tiptoeName1">
-        <img src={tiptoe} class="nameLogo1" alt="" />
+        <img src={tiptoe} class="nameLogo1" alt="typing home logo" />
         <Typing loop={true} speed={110}>
           <span class="yourName2">your name</span>
           <Typing.Delay ms={1000} />
