@@ -105,6 +105,6 @@ yarn-error.log*
 ./cert.pem 
 ./key.pem
 
-./firebase
+
 ./hosting
 service-account.json*
