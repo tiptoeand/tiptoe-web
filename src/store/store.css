@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "FuturaBT";
+  src: url("../font/FuturaBT.ttf");
+}
+
+.storecontainer {
+  width: 100vw;
+  background-image: white;
+  font-family: FuturaBT;
+  font-size: 16px;
+  color: #000000;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.storecontainer h1 {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.storecontainer h2 {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 20%;
+  font-family: FuturaBT;
+  font-weight: lighter;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  padding-bottom: 10px;
+}
+
+.storecontainer content {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.storecontainer p {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 30%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 850px) {
+  .storecontainer h2 {
+    font-size: 20px;
+    margin-left: 15%;
+  }
+  .storecontainer p {
+    font-size: 18px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 500px) {
+  .storecontainer h2 {
+    font-size: 16px;
+    margin-left: 10%;
+  }
+  .storecontainer p {
+    font-size: 14px;
+    margin-left: 15%;
+  }
+}
