@@ -7,7 +7,7 @@ import proj3_6 from "../image/proj3_6.jpg";
 import proj3_7 from "../image/proj3_7.jpg";
 import proj3_8 from "../image/proj3_8.jpg";
 import proj3_9 from "../image/proj3_9.jpg";
-import "./project3.css";
+import "./projects.css";
 
 const photos1 = [
   {
@@ -53,11 +53,13 @@ const photos2 = [
 
 function Project3() {
   return (
-    <div class="project2page">
-      <div class="inclusiontext">
-        <h2>PROJECT_03: EVERY PIECE FITS TOGETHER</h2>
+    <div className="projectsection">
+      <div className="inclusiontext">
+        <h4 className="headingtext">
+          <strong>PROJECT_03: EVERY PIECE FITS TOGETHER </strong>
+        </h4>
       </div>
-      <div class="inclusiontext">
+      <div className="inclusiontext">
         <p>
           In efforts to reinforce and raise awareness about conventions and
           re-shape perspectives against the disabled. TIPTOE& is carrying out
@@ -65,7 +67,7 @@ function Project3() {
           <strong>Project_03: Every Piece Fits Together</strong>.
         </p>
       </div>
-      <div class="photogallery">
+      <div className="photogallery">
         <Gallery photos={photos1} />
         <Gallery photos={photos2} />
       </div>

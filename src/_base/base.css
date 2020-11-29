@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "FuturaBT";
+  src: url("../font/FuturaBT.ttf");
+}
+
+/* Footer */
+.footer {
+  padding-top: 10px;
+  margin-top: -20px;
+  max-height: 80px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 100vw;
+  color: #858585;
+  letter-spacing: 0.1px;
+  font-style: normal;
+  font-size: 14px;
+  font-family: FuturaBT;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.footer .rectangle {
+  width: 100vw;
+  height: 10px;
+  background-color: #ffffff;
+}
+
+.footer img {
+  padding-right: 10px;
+  height: 20px;
+}
+
+@media (max-width: 815px) {
+  .footer {
+    font-size: 12px;
+  }
+  .footer img {
+    padding-right: 8px;
+    height: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer {
+    padding-top: 18vh;
+    font-size: 10px;
+  }
+  .footer img {
+    padding-right: 6px;
+  }
+}
+
+/* Navbar Desktop */
+.navbardesktop {
+  display: block;
+  width: 100%;
+  min-width: 100%;
+}
+
+.navbardesktop .desktopnavbar {
+  background-color: white;
+  width: 100vw;
+  font-family: FuturaBT;
+}
+
+.navbardesktop .desktoplogoimage {
+  max-width: 190px;
+}
+
+.navbardesktop .desktopnavbutton {
+  width: 18vw;
+}
+
+@media (max-width: 850px) {
+  .navbardesktop {
+    display: None;
+  }
+}
+
+/* Navbar Mobile */
+.navbarmobile {
+  height: 50px;
+  width: 100vw;
+}
+
+.navbarmobile a {
+  font-family: FuturaBT;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #dd8a8a;
+}
+
+.navbarmobile .header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbarmobile .header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+}
+
+.navbarmobile .header li a {
+  display: block;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+.navbarmobile .header li a:hover,
+.navbarmobile .header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.navbarmobile .header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navbarmobile .header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.navbarmobile .header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.navbarmobile .header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.navbarmobile .header .menu-icon .navicon:before,
+.navbarmobile .header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.navbarmobile .header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.navbarmobile .header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.navbarmobile .header .menu-btn {
+  display: none;
+}
+
+.navbarmobile .header .menu-btn:checked ~ .menu {
+  max-height: 350px;
+}
+
+.navbarmobile .header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.navbarmobile .header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.navbarmobile .header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.navbarmobile
+  .header
+  .menu-btn:checked
+  ~ .menu-icon:not(.steps)
+  .navicon:before,
+.navbarmobile
+  .header
+  .menu-btn:checked
+  ~ .menu-icon:not(.steps)
+  .navicon:after {
+  top: 0;
+}
+
+.navbarmobile .mainlogo2 {
+  width: 20%;
+  padding-top: 20px;
+  margin-left: 42vw;
+  width: 100px;
+}
+
+@media (min-width: 851px) {
+  .navbarmobile .header {
+    display: None;
+  }
+  .navbarmobile {
+    display: None;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbarmobile a {
+    font-size: 11px;
+  }
+  .navbarmobile .header .menu-btn:checked ~ .menu {
+    height: 185px;
+  }
+  .navbarmobile .header li {
+    height: 30px;
+  }
+  .navbarmobile .header li a {
+    padding: 10px 10px;
+  }
+}

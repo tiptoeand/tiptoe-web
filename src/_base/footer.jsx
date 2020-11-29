@@ -3,12 +3,15 @@ import fblogo from "../image/fb-big.svg";
 import emaillogo from "../image/email-big.svg";
 import instalogo from "../image/insta-big.svg";
 import partnerlogo from "../image/partner-big.svg";
-import "./footer.css";
+import "./base.css";
 
 function Footer() {
+  var d = new Date();
+  var yr_num = d.getFullYear();
+
   return (
-    <div class="footer">
-      <div class="Rectangle"></div>
+    <div className="footer pt-3">
+      <div className="rectangle"></div>
       <a href="https://www.tiptoeand.com/">
         <img src={partnerlogo} alt="tiptoe& website" />
       </a>
@@ -21,7 +24,7 @@ function Footer() {
       <a href="mailto: tiptoeand.cornell@gmail.com">
         <img src={emaillogo} alt="tiptoe& email" />
       </a>
-      <p>&copy;TIPTOE& 2020</p>
+      <p>&copy;TIPTOE& {yr_num}</p>
     </div>
   );
 }

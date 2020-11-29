@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'FuturaBT';
+  font-family: "FuturaBT";
   src: url("../font/FuturaBT.ttf");
 }
 
 .imageText {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 .mainImage {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    z-index: -1;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  z-index: -1;
 }
 
 .ourteampage .tiptoeNameTeam {
@@ -21,52 +21,50 @@
   clear: none;
 }
 
-.ourteampage .nameLogoTeam{
+.ourteampage .nameLogoTeam {
   width: 15%;
   display: block;
-  padding-left:30vw;
+  padding-left: 30vw;
   padding-bottom: 10px;
 }
 
 .ourteampage .yourNameTeam {
   display: block;
-    color: gray;
-    margin-top: -50px;
-    margin-left: 0%;
-    padding-left: 50vw;
-    font-size: 30px;
+  color: gray;
+  margin-top: -50px;
+  margin-left: 0%;
+  padding-left: 50vw;
+  font-size: 30px;
 }
 
 .ourteampage .lineTeam {
-    display: block;
-    height: 1px;
-    width: 24%;
-    min-width: 150px;
-    border: 0;
-    border-top: 2px solid #000000;
-    padding: 0;
-    position: absolute;
-    margin-left: 46%;
+  display: block;
+  height: 1px;
+  width: 24%;
+  min-width: 150px;
+  border: 0;
+  border-top: 2px solid #000000;
+  padding: 0;
+  position: absolute;
+  margin-left: 46%;
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .ourteampage .yourNameTeam {
     font-size: 20px;
   }
   .ourteampage .tiptoeNameTeam {
     display: none;
   }
-
 }
 
-@media (min-width: 1500px){
+@media (min-width: 1500px) {
   .ourteampage .yourNameTeam {
-    font-size: 34px
+    font-size: 34px;
   }
-
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .ourteampage .yourNameTeam {
     font-size: 18px;
     padding-top: 15px;
@@ -79,11 +77,9 @@
   .ourteampage .tiptoeNameTeam {
     padding-bottom: 20px;
   }
-  
-  .ourteampage .nameLogoTeam{
-    padding-left:24vw;
+
+  .ourteampage .nameLogoTeam {
+    padding-left: 24vw;
     padding-bottom: 10px;
   }
-
-
 }

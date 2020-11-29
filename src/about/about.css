@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'FuturaBT';
+  font-family: "FuturaBT";
   src: url("../font/FuturaBT.ttf");
 }
-
 
 .ourmissioncontainer .logoImage {
   float: left;
@@ -23,8 +22,6 @@
   width: 85px;
 }
 
-
-
 .tiptoeName1 {
   margin-top: -1%;
   margin-bottom: 5%;
@@ -39,7 +36,6 @@
   margin-left: 35vw;
   display: block;
   padding-left: -360px;
-
 }
 
 .yourName1 {
@@ -62,20 +58,17 @@
 }
 
 .video {
-  width: 50vw;
   min-height: 480px;
-  padding-left: 50vw;
-  margin-left: -360px;
+  width: 100%;
   margin-top: -100px;
   position: relative;
   padding-top: 120px;
 }
 
-.video iframe{
+.video iframe {
   align-self: center;
   align-items: center;
 }
-
 
 .ourmissioncontainer3 {
   width: 100vw;
@@ -99,45 +92,42 @@
   padding-bottom: 0px;
 }
 
-.ourmissioncontainer3 h2{
+.ourmissioncontainer3 h2 {
   font-size: 18px;
   color: darkslategrey;
 }
 
-
-
-@media (max-width: 850px){
+@media (max-width: 850px) {
   .mainImage2 {
     margin-bottom: -2.2vw;
   }
   .ourmissioncontainer {
     height: 20vw;
     min-height: 120px;
-    
   }
-  .tiptoeName1{
+  .tiptoeName1 {
     font-size: 16px;
   }
 
   .video {
-    margin-left: -30vw;
     min-height: 200px;
     margin-top: -120px;
   }
+
   .video iframe {
     width: 60vw;
     height: 40vw;
   }
-  
-  .ourmissioncontainer h2{
+
+  .ourmissioncontainer h2 {
     font-size: 16px;
   }
-  .ourmissioncontainer p{
+  .ourmissioncontainer p {
     font-size: 14px;
   }
   .ourmissioncontainer .textContent {
     width: 65vw;
-    padding-left:50vw;
+    padding-left: 50vw;
     margin-left: -30vw;
   }
 
@@ -147,33 +137,32 @@
     font-size: 14px;
     margin-bottom: 24vh;
   }
-  
+
   .ourmissioncontainer3 .textContent3 {
     width: 65vw;
-    padding-left:50vw;
+    padding-left: 50vw;
     margin-left: -30vw;
     padding-bottom: 0px;
   }
-  
-  .ourmissioncontainer3 h2{
+
+  .ourmissioncontainer3 h2 {
     font-size: 15px;
     color: darkslategrey;
   }
-
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
   .mainImage2 {
     margin-bottom: -2.6vw;
   }
-  .ourmissioncontainer p{
+  .ourmissioncontainer p {
     font-size: 11px;
   }
-  .ourmissioncontainer3 .textContent3{
+  .ourmissioncontainer3 .textContent3 {
     font-size: 11px;
   }
 
-  .ourmissioncontainer3 .h2{
+  .ourmissioncontainer3 .h2 {
     font-size: 12px;
   }
 }

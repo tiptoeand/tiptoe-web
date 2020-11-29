@@ -5,7 +5,7 @@ import proj2_2 from "../image/proj2_2.jpg";
 import proj2_3 from "../image/proj2_3.jpg";
 import proj2_4 from "../image/proj2_4.jpg";
 import proj2_5 from "../image/proj2_5.jpg";
-import "./project2.css";
+import "./projects.css";
 
 const photos1 = [
   {
@@ -40,11 +40,13 @@ const photos2 = [
 
 function Project2() {
   return (
-    <div class="project2page">
-      <div class="inclusiontext">
-        <h2>PROJECT_02: NO SILENCE NO VIOLENCE</h2>
+    <div className="projectsection">
+      <div className="inclusiontext">
+        <h4 className="headingtext">
+          <strong>PROJECT_02: NO SILENCE NO VIOLENCE</strong>
+        </h4>
       </div>
-      <div class="inclusiontext">
+      <div className="inclusiontext">
         <p>
           Currently, TIPTOE& is organizing{" "}
           <strong>Project_02: No Silence No Violence</strong>, which has sparked
@@ -55,7 +57,7 @@ function Project2() {
           violence in our schools.
         </p>
       </div>
-      <div class="photogallery">
+      <div className="photogallery">
         <Gallery photos={photos1} />
         <Gallery photos={photos2} />
       </div>

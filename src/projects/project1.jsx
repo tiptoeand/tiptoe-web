@@ -7,7 +7,7 @@ import proj1_4 from "../image/proj1_4.jpg";
 import proj1_5 from "../image/proj1_5.jpg";
 import proj1_6 from "../image/proj1_6.jpg";
 import proj1_7 from "../image/proj1_7.jpg";
-import "./project1.css";
+import "./projects.css";
 
 const photos1 = [
   {
@@ -51,11 +51,13 @@ const photos2 = [
 
 function Project1() {
   return (
-    <div class="project1page">
-      <div class="inclusiontext">
-        <h2>PROJECT_01: UNSPOKEN VIOLENCE</h2>
+    <div className="projectsection">
+      <div className="inclusiontext">
+        <h4 className="headingtext">
+          <strong>PROJECT_01: UNSPOKEN VIOLENCE</strong>
+        </h4>
       </div>
-      <div class="inclusiontext">
+      <div className="inclusiontext">
         <p>
           In 2017, TIPTOE& partnered with Greeen Tree Youth Violence Prevention
           Foundation, a leading NGO which prevents school violence in South
@@ -64,7 +66,7 @@ function Project1() {
           donated to provide medical treatment to a victim of school violence.
         </p>
       </div>
-      <div class="photogallery">
+      <div className="photogallery">
         <Gallery photos={photos1} />
         <Gallery photos={photos2} />
       </div>

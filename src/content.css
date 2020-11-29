@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'FuturaBT';
-  src: url("../font/FuturaBT.ttf");
+  font-family: "FuturaBT";
+  src: url("./font/FuturaBT.ttf");
 }
 
 .titleImage {
@@ -13,26 +13,29 @@
 }
 
 .intext {
-  width: 60vw;
+  /* width: 60vw; */
+  width: 63vw;
   position: relative;
-  padding-left: 50vw;
-  margin-left: -30vw;
+  /* padding-left: 50vw;
+    margin-left: -30vw; */
   font-family: FuturaBT;
 }
-.intext .titleText{
-  padding-top: 10px; 
+
+.intext .titleText {
+  padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center; 
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 
-.intext .headerText{
+/* 
+.intext .headerText {
   text-align: center;
   font-size: 30px;
 }
 
-.intext .left{
+.intext .left {
   text-align: left;
   font-size: 30px;
 }
@@ -40,6 +43,4 @@
 .intext .descriptionText {
   text-align: center;
   font-size: 16px;
-}
-
-
+} */

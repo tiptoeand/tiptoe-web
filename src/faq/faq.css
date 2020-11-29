@@ -3,7 +3,7 @@
   src: url("../font/FuturaBT.ttf");
 }
 
-.contactcontainer {
+.faqcontainer {
   width: 100vw;
   height: 75vh;
   background-image: white;
@@ -13,13 +13,13 @@
   padding-top: 2vh;
   padding-bottom: 6vh;
 }
-.contactcontainer h1 {
+.faqcontainer h1 {
   font-size: 50px;
   text-align: left;
   margin-left: 20%;
 }
 
-.contactcontainer h2 {
+.faqcontainer h2 {
   font-size: 25px;
   text-align: left;
   margin-left: 20%;
@@ -31,11 +31,11 @@
   padding-bottom: 10px;
 }
 
-.contactcontainer content {
+.faqcontainer content {
   display: flex;
   padding-bottom: 30px;
 }
-.contactcontainer p {
+.faqcontainer p {
   font-size: 25px;
   text-align: left;
   margin-left: 30%;
@@ -59,7 +59,7 @@
   margin-top: -10px;
 }
 
-.contactcontainer img2 {
+.faqcontainer img2 {
   padding-right: 10%;
   display: flex;
   width: 60px;
@@ -69,11 +69,11 @@
 }
 
 @media (max-width: 850px) {
-  .contactcontainer h2 {
+  .faqcontainer h2 {
     font-size: 20px;
     margin-left: 15%;
   }
-  .contactcontainer p {
+  .faqcontainer p {
     font-size: 18px;
     margin-left: 20%;
   }
@@ -90,11 +90,11 @@
 }
 
 @media (max-width: 500px) {
-  .contactcontainer h2 {
+  .faqcontainer h2 {
     font-size: 16px;
     margin-left: 10%;
   }
-  .contactcontainer p {
+  .faqcontainer p {
     font-size: 14px;
     margin-left: 15%;
   }
