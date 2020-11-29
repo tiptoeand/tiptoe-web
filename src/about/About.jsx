@@ -8,9 +8,8 @@ import "../content.css";
 const AboutContent = () => {
   return (
     <div className="pb-3">
-      <section>
-        <img src={TeamImage} className="titleImage" alt="Tiptoe Mission" />
-      </section>
+      <img src={TeamImage} className="titleImage" alt="Tiptoe Mission" />
+
       <section>
         <div className="container-fluid justify-content-center text-center intext">
           <p className="titleText pt-2">Our Mission</p>
@@ -23,12 +22,14 @@ const AboutContent = () => {
           </p>
           <center>
             <div className="video">
-              <iframe
-                src="https://drive.google.com/file/d/1kL-MWddDOhm04RxBnxE-5LNozGKi0mnw/preview"
-                width="720"
-                height="480"
-                title="TT Our Story Video"
-              ></iframe>
+              <center>
+                <iframe
+                  src="https://drive.google.com/file/d/1kL-MWddDOhm04RxBnxE-5LNozGKi0mnw/preview"
+                  width="720"
+                  height="480"
+                  title="TT Our Story Video"
+                ></iframe>
+              </center>
             </div>
           </center>
 

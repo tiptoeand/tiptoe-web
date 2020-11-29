@@ -5,7 +5,7 @@ import { PressDesktop } from "./pressDesktop";
 import { PressMobile } from "./pressMobile";
 
 import tiptoe from "../image/tiptoe.png";
-import MainImage from "../image/MainImage.jpeg";
+import MainImage from "../image/home.jpeg";
 import Timeline from "../image/Timeline.webp";
 import threeimages from "../image/threeimages.webp";
 import threesteps from "../image/threesteps.webp";

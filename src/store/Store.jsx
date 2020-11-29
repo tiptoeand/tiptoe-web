@@ -1,6 +1,6 @@
 import React from "react";
 import { Base } from "../_base/Base";
-import MainImage from "../image/MainImage.jpeg";
+import MainImage from "../image/store.jpg";
 import "./store.css";
 
 const StoreContent = () => {

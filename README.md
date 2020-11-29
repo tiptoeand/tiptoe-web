@@ -1,3 +1,3 @@
 # Tiptoe--Web
 
-https://cornell-tiptoeand.firebaseapp.com/
+https://tiptoe-web.firebaseapp.com/

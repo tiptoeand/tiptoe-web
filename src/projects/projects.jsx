@@ -12,7 +12,11 @@ import "../content.css";
 const ProjectsContent = () => {
   return (
     <div className="projectpage">
-      <img src={ProjectPageImage} className="titleImage" alt="" />
+      <img
+        src={ProjectPageImage}
+        className="titleImage"
+        alt="Tiptoe Project Page Landing"
+      />
       <div className="container-fluid justify-content-center text-center intext">
         <p className="titleText">Our Projects</p>
         <Project3 />

@@ -5,13 +5,12 @@
 
 .faqcontainer {
   width: 100vw;
-  height: 75vh;
   background-image: white;
   font-family: FuturaBT;
   font-size: 16px;
   color: #000000;
   padding-top: 2vh;
-  padding-bottom: 6vh;
+  padding-bottom: 3vh;
 }
 .faqcontainer h1 {
   font-size: 50px;

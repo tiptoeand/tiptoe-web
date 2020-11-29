@@ -1,8 +1,7 @@
 import React from "react";
 import team_mobile from "../image/team_mobile.jpg";
 import team_desktop from "../image/team_desktop.jpg";
-import member_photo from "../image/team_member_temp.jpg";
-import "./teamcontent.css";
+import "./about.css";
 
 function TeamContent() {
   return (

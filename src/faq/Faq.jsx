@@ -1,6 +1,7 @@
 import React from "react";
 import { Base } from "../_base/Base";
 
+import MainImage from "../image/faq.jpeg";
 import facebook from "../image/fb-large.svg";
 import insta from "../image/insta-large.svg";
 import partner from "../image/partner-large.svg";
@@ -9,11 +10,29 @@ import email from "../image/email-large.svg";
 import "./faq.css";
 
 const FaqContent = () => {
+  var d = new Date();
+  var yr_num = d.getFullYear();
+  var mt_num = d.getMonth();
+  var ss = "";
+  if (mt_num < 6) {
+    ss = "spring";
+  } else {
+    ss = "fall";
+  }
+
   return (
-    <div className="faqcontainer">
+    <div className="faqcontainer container-fluid justify-content-center text-center intext">
+      <img
+        src={MainImage}
+        className="titleImage pb-3"
+        alt="Tiptoe Frequently Asked Questions"
+      />
+
       <h2>RECRUITMENT</h2>
       <content>
-        <p>Applications for fall 2020 is now closed.</p>
+        <p>
+          Applications for {ss} {yr_num} is now closed.
+        </p>
       </content>
 
       <h2>CONTACT US</h2>
