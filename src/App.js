@@ -8,7 +8,7 @@ import {
 import { Home } from "./home/Home";
 import { About } from "./about/About";
 import { Faq } from "./faq/Faq";
-import { Projects } from "./projects/Projects.jsx";
+import { Projects } from "./projects/Projects";
 import { Store } from "./store/Store";
 
 function App() {
