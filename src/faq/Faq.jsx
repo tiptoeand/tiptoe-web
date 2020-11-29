@@ -8,6 +8,7 @@ import partner from "../image/partner-large.svg";
 import email from "../image/email-large.svg";
 
 import "./faq.css";
+import "../content.css";
 
 const FaqContent = () => {
   var d = new Date();
@@ -24,7 +25,7 @@ const FaqContent = () => {
     <div className="faqcontainer container-fluid justify-content-center text-center intext">
       <img
         src={MainImage}
-        className="titleImage pb-3"
+        className="titleImage"
         alt="Tiptoe Frequently Asked Questions"
       />
 
