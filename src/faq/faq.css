@@ -11,6 +11,8 @@
   color: #000000;
   padding-top: 2vh;
   padding-bottom: 3vh;
+  padding-left: 0;
+  padding-right: 0;
 }
 .faqcontainer h1 {
   font-size: 50px;
