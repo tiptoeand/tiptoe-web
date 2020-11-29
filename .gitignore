@@ -108,3 +108,5 @@ yarn-error.log*
 
 ./hosting
 service-account.json*
+
+.vscode
