@@ -16,7 +16,7 @@
         "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.1",
         "react-typing-animation": "^1.6.2",
-        "video-react": "^0.14.1"
+        "youtube-embed-video": "^1.2.1"
     },
     "scripts": {
         "start": "react-scripts start",

@@ -1,5 +1,6 @@
 import React from "react";
 import { Base } from "../_base/Base";
+import YoutubeEmbedVideo from "youtube-embed-video";
 import { TeamContent } from "./teamsection";
 import TeamImage from "../image/teamresize.jpg";
 import "./about.css";
@@ -23,12 +24,18 @@ const AboutContent = () => {
           <center>
             <div className="video">
               <center>
-                <iframe
+                {/* <iframe
                   src="https://drive.google.com/file/d/1kL-MWddDOhm04RxBnxE-5LNozGKi0mnw/preview"
                   width="720"
                   height="480"
                   title="TT Our Story Video"
-                ></iframe>
+                ></iframe> */}
+
+                <YoutubeEmbedVideo
+                  videoId="C6Qj2dSkGio"
+                  showInfo={false}
+                  suggestions={false}
+                />
               </center>
             </div>
           </center>
