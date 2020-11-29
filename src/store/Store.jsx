@@ -7,7 +7,7 @@ const StoreContent = () => {
   return (
     <div className="storecontainer">
       <img src={MainImage} className="titleImage pb-3" alt="Tiptoe Store" />
-      <h2>Tiptoe& Store</h2>
+      <h2>Online Store</h2>
       <content>
         <p>Coming Soon...</p>
       </content>
