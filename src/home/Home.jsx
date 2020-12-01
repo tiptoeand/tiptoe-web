@@ -22,30 +22,56 @@ import "../content.css";
 const HomeMobile = () => {
   return (
     <div className="homemobilecontent">
-      <div className="homemobiles">
-        <div className="homemobilescontent">
-          <img src={image1} alt="home image1"></img>
+      <div className="container-fluid pb-3">
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <img
+              src={image1}
+              alt="home show support"
+              className="homemobilecontentimage"
+            />
+          </div>
+          <div className="col-6">
+            <img
+              src={image2}
+              alt="home choose wear support social cause"
+              className="homemobilecontentimage"
+            />
+          </div>
         </div>
-        <div className="homemobilescontent2">
-          <img src={image2} alt="home image2"></img>
-        </div>
-      </div>
 
-      <div className="homemobiles">
-        <div className="homemobilescontent2">
-          <img src={image4} alt="home image4"></img>
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <img
+              src={image4}
+              alt="home spread the word"
+              className="homemobilecontentimage"
+            />
+          </div>
+          <div className="col-6">
+            <img
+              src={image3}
+              alt="home spread awareness"
+              className="homemobilecontentimage"
+            />
+          </div>
         </div>
-        <div className="homemobilescontent">
-          <img src={image3} alt="home image3"></img>
-        </div>
-      </div>
 
-      <div className="homemobiles">
-        <div className="homemobilescontent">
-          <img src={image5} alt="home image5"></img>
-        </div>
-        <div className="homemobilescontent2">
-          <img src={image6} alt="home image6"></img>
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <img
+              src={image5}
+              alt="home take action"
+              className="homemobilecontentimage"
+            />
+          </div>
+          <div className="col-6">
+            <img
+              src={image6}
+              alt="home profit goes to charity"
+              className="homemobilecontentimage"
+            />
+          </div>
         </div>
       </div>
 

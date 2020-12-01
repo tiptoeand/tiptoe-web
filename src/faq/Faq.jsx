@@ -25,7 +25,7 @@ const FaqContent = () => {
     <div className="faqcontainer container-fluid justify-content-center text-center intext">
       <img
         src={MainImage}
-        className="titleImage"
+        className="titleImage pb-3"
         alt="Tiptoe Frequently Asked Questions"
       />
 
