@@ -84,7 +84,6 @@
 }
 
 /* Mobile Home */
-
 .homemobiles {
   width: 100vw;
   height: 240px;
@@ -99,28 +98,6 @@
 
 .homemobilecontentimage {
   width: 45vw;
-  height: auto;
-}
-
-.homemobiles .homemobilescontent {
-  width: 45vw;
-  margin-left: 0px;
-  padding-bottom: 50px;
-  padding-top: 60px;
-}
-.homemobiles .homemobilescontent img {
-  width: 200px;
-  height: auto;
-}
-
-.homemobiles .homemobilescontent2 {
-  width: 45vw;
-  margin-left: -5px;
-  padding-bottom: 50px;
-  padding-top: 125px;
-}
-.homemobiles .homemobilescontent2 img {
-  width: 40vw;
   height: auto;
 }
 

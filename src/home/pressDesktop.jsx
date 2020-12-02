@@ -20,8 +20,7 @@ function PressDesktop() {
             />
             <div className="hvrbox-layer_top">
               <div className="hvrbox-text">
-                Social enterprise operated by Korean Students at Cornell
-                University
+                Social enterprise by Korean Cornell students
               </div>
             </div>
           </a>
@@ -36,8 +35,7 @@ function PressDesktop() {
             />
             <div className="hvrbox-layer_top">
               <div className="hvrbox-text">
-                A Conversation with TIPTOE&'s Luke Hong Gi Baek, Hyun Kyoo Choi
-                and JinHyung Moon
+                A Conversation with the Founders
               </div>
             </div>
           </a>
@@ -51,7 +49,9 @@ function PressDesktop() {
               className="hvrbox-layer_bottom"
             />
             <div className="hvrbox-layer_top">
-              <div className="hvrbox-text">Press Description #3</div>
+              <div className="hvrbox-text">
+                Social enterprise by Korean Cornell students
+              </div>
             </div>
           </a>
         </div>
@@ -64,7 +64,7 @@ function PressDesktop() {
               className="hvrbox-layer_bottom"
             />
             <div className="hvrbox-layer_top">
-              <div className="hvrbox-text">Press Description #4</div>
+              <div className="hvrbox-text">Korean Social Enterprise</div>
             </div>
           </a>
         </div>
@@ -77,7 +77,7 @@ function PressDesktop() {
               className="hvrbox-layer_bottom"
             />
             <div className="hvrbox-layer_top">
-              <div className="hvrbox-text">Press Description #5</div>
+              <div className="hvrbox-text">Cornell Fashion Startup</div>
             </div>
           </a>
         </div>
@@ -90,7 +90,9 @@ function PressDesktop() {
               className="hvrbox-layer_bottom"
             />
             <div className="hvrbox-layer_top">
-              <div className="hvrbox-text">Press Description #6</div>
+              <div className="hvrbox-text">
+                Fashion Startup by Cornell Students
+              </div>
             </div>
           </a>
         </div>
