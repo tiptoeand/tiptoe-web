@@ -2,7 +2,18 @@
   font-family: "FuturaBT";
   src: url("../font/FuturaBT.ttf");
 }
-
+a:link {
+  color: #000000;
+}
+a:visited {
+  color: #000000;
+}
+a:hover {
+  color: #000000;
+}
+a:active {
+  color: #000000;
+}
 .faqcontainer {
   width: 100vw;
   background-image: white;

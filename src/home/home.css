@@ -96,6 +96,10 @@
   margin-left: 20px;
 }
 
+.homemobilecontentsection {
+  width: 50vw;
+}
+
 .homemobilecontentimage {
   width: 45vw;
   height: auto;
@@ -254,6 +258,18 @@
   margin-left: 20px;
 }
 
+.pressmobilescontentimage {
+  width: 45vw;
+  height: auto;
+  /* padding-right: 0; */
+}
+
+.pressmobiletext {
+  font-size: 18px;
+  font-family: FuturaBT;
+  text-align: center;
+}
+
 .pressmobiles .pressmobilescontent {
   width: 45vw;
   margin-left: 15px;
@@ -264,21 +280,19 @@
   width: 160px;
   height: auto;
 }
-.pressmobiles .pressmobilescontent .pressmobilesdesc {
+.pressmobilesdesc {
   font-size: 18px;
   font-family: FuturaBT;
   text-align: center;
-  padding-top: 50px;
-  text-decoration: underline;
-  width: 68%;
+  /* width: 68%; */
+  width: 50%;
+  padding-right: 0;
 }
 
 .pressmobilesdesc2 {
   font-size: 18px;
   font-family: FuturaBT;
   text-align: center;
-  padding-top: 50px;
-  text-decoration: underline;
   width: 68%;
   padding-left: 60px;
 }

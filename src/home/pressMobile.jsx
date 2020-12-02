@@ -13,16 +13,81 @@ function PressMobile() {
       <div className="pressline">
         <hr />
       </div>
-      <div className="pressmobiles">
+      <div className="container-fluid">
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <center>
+              <a href="http://www.koreadaily.com/news/read.asp?art_id=6178286">
+                <img
+                  src={Koreadaily1}
+                  alt="Korea Daily Logo"
+                  className="pressmobilescontentimage"
+                ></img>
+              </a>
+            </center>
+          </div>
+          <div className="col-6">
+            <div className="pressmobiletext">
+              Conversation with the Founders
+            </div>
+          </div>
+        </div>
+        <div className="pressline">
+          <hr />
+        </div>
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <div className="pressmobiletext">
+              Social enterprise by Korean Cornell students
+            </div>
+          </div>
+          <div className="col-6">
+            <center>
+              <a href="http://www.thecornellbusinessreview.com/cbrnow/2017/11/12/a-conversation-with-tiptoes-luke-hong-gi-baek-hyun-kyoo-choi-and-jinhyung-moon">
+                <img
+                  src={BusinessReview}
+                  alt="Cornell Business Review Logo"
+                  className="pressmobilescontentimage"
+                ></img>
+              </a>
+            </center>
+          </div>
+        </div>
+        <div className="pressline">
+          <hr />
+        </div>
+        <div className="row justify-content-center align-items-center pb-1">
+          <div className="col-6">
+            <center>
+              <a href="https://www.jungle.co.kr/magazine/27289">
+                <img
+                  src={Glogo}
+                  alt="Jungle Logo"
+                  className="pressmobilescontentimage"
+                ></img>
+              </a>
+            </center>
+          </div>
+          <div className="col-6">
+            <div className="pressmobiletext">
+              Fashion Startup by Cornell Students
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="pressline">
+        <hr />
+      </div>
+
+      {/* <div className="pressmobiles">
         <div className="pressmobilescontent">
           <a href="http://www.koreadaily.com/news/read.asp?art_id=6178286">
             <img src={Koreadaily1} alt="Korea Daily Logo"></img>
           </a>
         </div>
         <div className="pressmobilescontent">
-          <div className="pressmobilesdesc">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
+          <div className="pressmobilesdesc p-0">
+            A Conversation with the Founders
           </div>
         </div>
       </div>
@@ -33,8 +98,7 @@ function PressMobile() {
       <div className="pressmobiles">
         <div className="pressmobilescontent2">
           <div className="pressmobilesdesc2">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
+            Social enterprise by Korean Cornell students
           </div>
         </div>
         <div className="pressmobilescontent2">
@@ -55,8 +119,7 @@ function PressMobile() {
         </div>
         <div className="pressmobilescontent">
           <div className="pressmobilesdesc">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
+            A Conversation with the Founders
           </div>
         </div>
       </div>
@@ -66,10 +129,7 @@ function PressMobile() {
 
       <div className="pressmobiles">
         <div className="pressmobilescontent2">
-          <div className="pressmobilesdesc2">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
-          </div>
+          <div className="pressmobilesdesc2">Korean Social Enterprise</div>
         </div>
         <div className="pressmobilescontent2">
           <a href="https://blog.naver.com/bakbht/221197114516">
@@ -88,10 +148,7 @@ function PressMobile() {
           </a>
         </div>
         <div className="pressmobilescontent">
-          <div className="pressmobilesdesc">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
-          </div>
+          <div className="pressmobilesdesc">Cornell Fashion Startup</div>
         </div>
       </div>
       <div className="pressline">
@@ -101,8 +158,7 @@ function PressMobile() {
       <div className="pressmobiles">
         <div className="pressmobilescontent2">
           <div className="pressmobilesdesc2">
-            "Social enterprise operated by Korean Students at Cornell
-            University."
+            Fashion Startup by Cornell Students
           </div>
         </div>
         <div className="pressmobilescontent2">
@@ -110,7 +166,7 @@ function PressMobile() {
             <img src={Glogo} alt="Jungle Logo"></img>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
