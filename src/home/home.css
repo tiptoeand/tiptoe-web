@@ -96,25 +96,8 @@
   margin-left: 20px;
 }
 
-.homemobiles .homemobilescontent {
+.homemobilecontentimage {
   width: 45vw;
-  margin-left: 0px;
-  padding-bottom: 50px;
-  padding-top: 60px;
-}
-.homemobiles .homemobilescontent img {
-  width: 200px;
-  height: auto;
-}
-
-.homemobiles .homemobilescontent2 {
-  width: 45vw;
-  margin-left: -5px;
-  padding-bottom: 50px;
-  padding-top: 125px;
-}
-.homemobiles .homemobilescontent2 img {
-  width: 40vw;
   height: auto;
 }
 
@@ -130,7 +113,6 @@
 }
 
 /* Desktop Press */
-
 .presssection {
   align-items: center;
   justify-content: center;
