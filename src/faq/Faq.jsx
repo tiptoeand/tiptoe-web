@@ -16,9 +16,9 @@ const FaqContent = () => {
   var mt_num = d.getMonth();
   var ss = "";
   if (mt_num < 6) {
-    ss = "spring";
+    ss = "Spring";
   } else {
-    ss = "fall";
+    ss = "Fall";
   }
 
   return (
@@ -28,30 +28,36 @@ const FaqContent = () => {
         className="titleImage pb-3"
         alt="Tiptoe Frequently Asked Questions"
       />
-
-      <h2>RECRUITMENT</h2>
+      <br />
+      <h2>Recruitment</h2>
       <content>
         <p>
-          Applications for {ss} {yr_num} is now closed.
+          Applications for {ss} {yr_num} are now closed.
         </p>
       </content>
 
-      <h2>CONTACT US</h2>
+      <h2>Contact Us</h2>
       <p>
         <img className="logoImage" src={partner} alt="web" />
-        www.tiptoeand.com
+        <a href="www.tiptoeand.com">www.tiptoeand.com </a>
       </p>
       <p>
         <img className="logoImage2" src={facebook} alt="fb" />
-        https://www.facebook.com/tiptoeand/
+        <a href="https://www.facebook.com/tiptoeand/">
+          https://www.facebook.com/tiptoeand/
+        </a>
       </p>
       <p>
         <img className="logoImage" src={insta} alt="insta" />
-        https://www.instagram.com/tiptoeand_/
+        <a href="https://www.instagram.com/tiptoeand_/">
+          https://www.instagram.com/tiptoeand_/
+        </a>
       </p>
       <p>
         <img className="logoImage" src={email} alt="email" />
-        tiptoeand.cornell@gmail.com
+        <a href="mailto:tiptoeand.cornell@gmail.com">
+          tiptoeand.cornell@gmail.com
+        </a>
       </p>
     </div>
   );

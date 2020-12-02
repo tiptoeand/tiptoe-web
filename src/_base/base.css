@@ -102,6 +102,7 @@
   width: 100vw;
   /* width: 100%;
   z-index: 2; */
+  z-index: 10;
 }
 
 .navbarmobile .header ul {
