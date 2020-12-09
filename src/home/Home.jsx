@@ -14,7 +14,7 @@ import image2 from "../image/threesteps1.jpg";
 import image3 from "../image/home_2.webp";
 import image4 from "../image/threesteps2.jpg";
 import image5 from "../image/home_3.webp";
-import image6 from "../image/threesteps3.jpg";
+import image6 from "../image/threesteps3n.jpg";
 
 import "./home.css";
 import "../content.css";
