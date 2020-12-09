@@ -18,6 +18,7 @@ const ProjectsContent = () => {
         alt="Tiptoe Project Page Landing"
       />
       <div className="container-fluid justify-content-center text-center intext">
+        <br />
         <p className="titleText">Our Projects</p>
         <Project3 />
         <Project2 />

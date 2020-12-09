@@ -2,7 +2,7 @@ import React from "react";
 import { Base } from "../_base/Base";
 import YoutubeEmbedVideo from "youtube-embed-video";
 import { TeamContent } from "./teamsection";
-import TeamImage from "../image/teamresize.jpg";
+import TeamImage from "../image/team.jpg";
 import "./about.css";
 import "../content.css";
 
@@ -13,6 +13,7 @@ const AboutContent = () => {
 
       <section>
         <div className="container-fluid justify-content-center text-center intext">
+          <br />
           <p className="titleText pt-2">Our Mission</p>
           <p className="descriptionText">
             Clothing is the final layer of expressing oneself and their values.
