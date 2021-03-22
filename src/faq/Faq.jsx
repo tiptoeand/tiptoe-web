@@ -10,6 +10,59 @@ import email from "../image/email-large.svg";
 import "./faq.css";
 import "../content.css";
 
+import Fak from 'react-faq-component';
+
+const data = {
+  title: "ORDERS",
+  rows: [
+    {
+      title: "When is our next project being released?",
+      content: "Our next project release date will be revealed soon!"
+    },
+    {
+      title: "How do I place an order?",
+      content: "We are currently finalizing our ordering process and it will be released on."
+    },
+    {
+      title: "When and how do I receive my order? ",
+      content: "We will be monitoring the COVID situation around campus and are in the process of finalizing safe pickup locations."
+    },
+    {
+      title: "When will our web store be open?",
+      content: "The web store is currently in development for our next project!"
+    }]
+
+}
+
+const data1 = {
+  title: "ABOUT TIPTOE&",
+  rows: [
+    {
+      title: "What does TIPTOE& mean?",
+      content: "Our name comes from the idea that it doesn't take much effort to tiptoe and peer over a wall to gain a whole new perspective."
+    },
+    {
+      title: "I want to get involved. How can I join?",
+      content: "TIPTOE& is a Cornell University Organization that welcomes all Cornell students! We have teams in Fashion Design, Website Development, Communications, Digital Marketing Design, Video and Photography, Internal Consulting, and Human Resources. Applications for Spring 2021 are now closed. We hope to see you next semester!"
+    },
+    {
+      title: "How are organizations selected for each project",
+      content: "We look for organizations that match our mission. An example of who we’ve worked with is the Green Tree Youth Violence Prevention Foundation (Cheongyedan)."
+    },
+    {
+      title: "What percentage of proceeds go to charity?",
+      content: "On average we donate the majority of our profits to charity. The rest of the proceeds go into funding our current/future projects."
+    },
+    {
+      title: "My organization is interested in collaborating with TIPTOE&. How can I reach out?",
+      content: "Please reach out to the TIPTOE& email at tiptoeand.cornell@gmail.com"
+    }
+  ],
+  styles: {
+    rowContentPaddingTop: '50px',
+  }
+}
+
 const FaqContent = () => {
   var d = new Date();
   var yr_num = d.getFullYear();
@@ -29,12 +82,24 @@ const FaqContent = () => {
         alt="Tiptoe Frequently Asked Questions"
       />
       <br />
-      <h2>Recruitment</h2>
+      <br />
+      <h2>RECRUITMENT</h2>
       <content>
         <p>
           Applications for {ss} {yr_num} are now closed.
         </p>
       </content>
+
+      <div className="faq-content">
+        <Fak data={data} />
+      </div>
+      <br />
+      <br />
+      <div className="faq-content">
+        <Fak data={data1} />
+      </div>
+      <br />
+      <br />
 
       <h2>Contact Us</h2>
       <p>

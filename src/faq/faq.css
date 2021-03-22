@@ -32,7 +32,7 @@ a:active {
 }
 
 .faqcontainer h2 {
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
   margin-left: 20%;
   font-family: FuturaBT;
@@ -40,7 +40,7 @@ a:active {
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  padding-bottom: 10px;
+  padding-bottom: 0;
 }
 
 .faqcontainer content {
@@ -50,9 +50,9 @@ a:active {
 .faqcontainer p {
   font-size: 25px;
   text-align: left;
-  margin-left: 30%;
+  margin-left: 20%;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .logoImage {
@@ -78,6 +78,22 @@ a:active {
   z-index: 2;
   margin-top: -120px;
   margin-left: 24%;
+}
+
+.faq-content {
+  margin-left: 20%;
+  margin-right: 15%;
+}
+
+.faq-title {
+  margin-top: 0;
+
+}
+
+.row-content-text {
+  text-align: left;
+  font-style: italic;
+  margin-left: 0%;
 }
 
 @media (max-width: 850px) {
