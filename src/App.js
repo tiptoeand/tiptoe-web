@@ -3,13 +3,14 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Redirect
+  Redirect,
 } from "react-router-dom";
 import { Home } from "./home/Home";
 import { About } from "./about/About";
 import { Faq } from "./faq/Faq";
 import { Projects } from "./projects/Projects";
 import { Store } from "./store/Store";
+import { Cart } from "./cart/Cart";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/projects/" component={Projects} />
         <Route exact path="/store/" component={Store} />
         <Route exact path="/faq/" component={Faq} />
+        <Route exact path="/cart/" component={Cart} />
         <Route path="">
           <Redirect to="/" />
         </Route>
