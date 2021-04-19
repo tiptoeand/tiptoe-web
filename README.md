@@ -23,3 +23,7 @@ Each subdirectory (excluding image and font) within src contains main component 
 - image: contains image files
 - projects: Projects page with sections for each previous project
 - store: Store page currently in progress
+
+## How To Add New Products
+
+## How To Deploy New Version of the Website
